@@ -502,6 +502,15 @@ a {
 }
 
 .home_card_border{
+  box-shadow: 0px 4px 24px #ffffff !important;
+  /* box-shadow: 0px 4px 24px rgba(35, 34, 34, 0.25) !important; */
+  border-radius: 10px 10px 10px !important;
+  height: 200px;
+  margin-bottom: 2rem;
+  padding: 5px;
+  transition: 0.4s ease-in-out;
+}
+.home_card_border:hover{
   box-shadow: 0px 4px 24px rgba(35, 34, 34, 0.25) !important;
   border-radius: 10px 10px 10px !important;
   height: 200px;
@@ -531,6 +540,10 @@ a {
 .icons{
    font-size: 18px;
   
+}
+.home_explore_tab{
+    color: #000000;
+    font-size: 20px;
 }
 @media (max-width: 991px) {
   .social-media-icons {
