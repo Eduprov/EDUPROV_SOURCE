@@ -221,7 +221,7 @@ a {
     background-color: #333333;
     width: 24px;
     position: relative;
-    margin-top: -20px;
+    margin-top: -5px;
   }
   .header .mobile-menu-trigger span:before,
   .header .mobile-menu-trigger span:after {
@@ -421,7 +421,7 @@ a {
 /*  blog content ui css start */
 .hero {
   width: 100%;
-  height: 90vh;
+  height: 100%;
   display: flex;
   position: absolute;
   top: 55%;
@@ -480,6 +480,52 @@ h4 {
 
 #content1 {
   transform: translateY(0);
+}
+.mobile_ui{
+    display: none;
+}
+
+.mobile_hero{
+     display: none;
+}
+
+@media (max-width: 991px) {
+  .hero {
+    display: none;
+  }
+  .tabs {
+   display: none;
+  }
+  .content-box {
+    display: none;
+  }
+  .tabs button {
+   display: none;
+  }
+
+.mobile_hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mobile_tabs{
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile_tabs button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  border-radius: 50px 50px 50px 50px !important;
+  text-align: left;
+}
+
 }
 
 /*  blog content ui  css end */
