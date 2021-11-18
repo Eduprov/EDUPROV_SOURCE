@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Countries </title>
+    <link rel="stylesheet" href="test.css" />
+    <link    rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link   rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+      <!-- Mega menu start -->
+    <header class="header">
+      <div class="header-container">
+        <div class="header-row v-center">
+          <div class="header-item item-left">
+            <div class="logo">
+              <a href="#">
+                <img src="images/logo.png" class="edu-logo" />
+              </a>
+            </div>
+          </div>
+          <!-- menu start here -->
+          <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+              <div class="mobile-menu-head">
+                <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="menu-main">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">Medical <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="#">BAMS</a></li>
+                      <li><a href="#">BDS</a></li>
+                      <li><a href="#">BHMS</a></li>
+                      <li><a href="#">MBBS</a></li>
+                      <li><a href="#">BUMS</a></li>
+                      <li><a href="#">BPT</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="#">M.D</a></li>
+                      <li><a href="#">Pharm.D</a></li>
+                      <li><a href="#">MDS</a></li>
+                      <li><a href="#">MD Unani</a></li>
+                      <li><a href="#">MD Anesthesia</a></li>
+                    </ul>
+                  </div>
+                </li>
+               
+                <li class="menu-item-has-children">
+                  <a href="#">Engineering <i class="fa fa-angle-down"></i></a>
+                  <div class="sub-menu mega-menu mega-menu-column-4">
+                    <div class="list-item">
+                      <h4 class="title">Diploma</h4>
+                      <ul>
+                        <li><a href="#">Course List</a></li>
+                      </ul>
+                    </div>
+                    <div class="list-item">
+                      <h4 class="title">Undergraduate</h4>
+                      <ul>
+                        <li><a href="#">Course List</a></li>
+                      </ul>
+                    </div>
+                    <div class="list-item">
+                      <h4 class="title">Postgraduate</h4>
+                      <ul>
+                        <li><a href="#">Course List</a></li>
+                      </ul>
+                    </div>
+                   
+                  </div>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">MBA <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="#">MBA Facility Management</a></li>
+                      <li><a href="#">MBA Banking and Finance</a></li>
+                      <li><a href="#">MBA Export management</a></li>
+                      <li><a href="#">MBA Finance Management</a></li>
+                      <li><a href="#">MBA Healthcare Management</a></li>
+                      <li><a href="#">MBA Human Resource Management</a></li>
+                      <li><a href="#">MBA Logistics Management</a></li>
+                      <li><a href="#">MBA Organizational Behavior</a></li>
+                      <li><a href="#">MBA Retail Management</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">Law <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="#">Bachelor of Legislative Law</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="#">Master of Law</a></li>
+                    </ul>
+                  </div>
+                </li>
+                  <li class="menu-item-has-children">
+                  <a href="#">Arts <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="#">BAMS</a></li>
+                      <li><a href="#">BDS</a></li>
+                      <li><a href="#">BHMS</a></li>
+                      <li><a href="#">MBBS</a></li>
+                      <li><a href="#">BUMS</a></li>
+                      <li><a href="#">BPT</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="#">M.D</a></li>
+                      <li><a href="#">Pharm.D</a></li>
+                      <li><a href="#">MDS</a></li>
+                      <li><a href="#">MD Unani</a></li>
+                      <li><a href="#">MD Anesthesia</a></li>
+                    </ul>
+                  </div>
+                </li>
+                
+                <li class="menu-item-has-children">
+                  <a href="#">Designing <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="#">BAMS</a></li>
+                      <li><a href="#">BDS</a></li>
+                      <li><a href="#">BHMS</a></li>
+                      <li><a href="#">MBBS</a></li>
+                      <li><a href="#">BUMS</a></li>
+                      <li><a href="#">BPT</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="#">M.D</a></li>
+                      <li><a href="#">Pharm.D</a></li>
+                      <li><a href="#">MDS</a></li>
+                      <li><a href="#">MD Unani</a></li>
+                      <li><a href="#">MD Anesthesia</a></li>
+                    </ul>
+                  </div>
+                </li>
+                 <li class="menu-item-has-children">
+                  <a href="#">More <i class="fa fa-angle-down"></i></a>
+                  <div class="sub-menu mega-menu mega-menu-column-4">
+                    <div class="list-item">
+                      <h4 class="title">Diploma</h4>
+                      <ul>
+                        <li><a href="#">Course List</a></li>
+                      </ul>
+                    </div>
+                    <div class="list-item">
+                      <h4 class="title">Undergraduate</h4>
+                      <ul>
+                        <li><a href="#">Course List</a></li>
+                      </ul>
+                    </div>
+                    <div class="list-item">
+                      <h4 class="title">Postgraduate</h4>
+                      <ul>
+                        <li><a href="#">Course List</a></li>
+                      </ul>
+                    </div>
+                   
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- menu end here -->
+          <div class="header-item item-right">
+           <!-- <i class="fas fa-sign-in-alt"></i>
+           <i class="fas fa-user-plus"></i> -->
+            <!-- mobile menu trigger -->
+            <div class="mobile-menu-trigger">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+      <!-- Mega menu end -->
+
+      <!-- Explore countries -->
+      <div class="container">
+          <div class="row text-center">
+              <div class="col-md-12 text-center">
+                  <h1>Explore Countries</h1>
+              </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-2 ">
+          <img src="images/australia.png" alt="australia" title="australia" /><br/>
+          <label>Australia</label>
+        </div>
+        <div class="col-md-2">
+           <img src="images/canada.png"  alt="canada" title="canada"/><br/>
+              <label>Canada</label>
+        </div>
+        <div class="col-md-2">
+            <img src="images/cyprus.png"  alt="cyprus" title="cyprus"/><br/>
+            <label>Cyprus</label>
+        </div>
+        <div class="col-md-2">
+            <img src="images/denmark.png"  alt="denmark"/><br/>
+            <label>Denmark</label>
+        </div>
+        <div class="col-md-2">
+          <img src="images/arab-emirates.png"  alt="united-arab-emirates"/><br/>
+           <label>UAE</label>
+        </div>
+        <div class="col-md-2">
+          <img src="images/france.png"  alt="france"/><br/>
+          <label>France</label>
+        </div>
+        </div>
+        <div class="row text-center mt-5">
+           <div class="col-md-2">
+          <img src="images/germany.png" alt="germany" /><br/>
+          <label>Germany</label>
+        </div>
+        <div class="col-md-2">
+           <img src="images/ireland.png"  alt="ireland"/><br/>
+           <label>Ireland</label>
+        </div>
+        <div class="col-md-2">
+            <img src="images/malaysia.png"  alt="malaysia"/><br/>
+            <label>Malaysia</label>
+        </div>
+        <div class="col-md-2">
+            <img src="images/mauritius.png"  alt="mauritius"/><br/>
+            <label>Mauritius</label>
+        </div>
+        <div class="col-md-2">
+          <img src="images/netherlands.png"  alt="netherlands"/><br/>
+          <label>Netherlands</label>
+        </div>
+        <div class="col-md-2">
+          <img src="images/new-zealand.png"  alt="new-zealand"/><br/>
+          <label>New Zealand</label>
+        </div>
+          </div>
+          <div class="row text-center mt-5">
+        <div class="col-md-2">
+          <img src="images/singapore.png" style="height: 75px;"  alt="singapore"/><br/>
+          <label>Singapore</label>
+        </div>
+         <div class="col-md-2">
+          <img src="images/spain.png" style="height: 75px;"  alt="spain"/><br/>
+          <label>Spain</label>
+        </div>
+          <div class="col-md-2">
+          <img src="images/sweden.png" style="height: 75px;"  alt="sweden"/><br/>
+          <label>Sweden</label>
+        </div>
+        <div class="col-md-2">
+          <img src="images/switzerland.png"  style="height: 75px;" alt="switzerland"/><br/>
+          <label>Switzerland</label>
+        </div>
+          <div class="col-md-2">
+          <img src="images/united-kingdom.png" style="height: 75px;"  alt="united-kingdom"/><br/>
+          <label>UK</label>
+        </div>
+          <div class="col-md-2">
+          <img src="images/usa.png" style="height: 75px;"  alt="usa"/><br/>
+          <label>USA</label>
+        </div>
+          <div class="col-md-2 mt-4">
+          <img src="images/italy.png" style="height: 75px;"  alt="Italy"/><br/>
+          <label>Italy</label>
+        </div>
+          </div>
+      </div>
+      <!-- Footer start -->
+<footer class="page-footer font-small bg-dark pt-4 mt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-left text-md-left">
+  
+      <!-- Footer links -->
+      <div class="row text-left text-md-left mt-3 pb-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Medical</label>
+          <p>
+            <a id="links" href="https://eduprov.com/mbbs-course.html">MBBS</a>
+          </p> 
+          <p>
+            <a id="links" href="https://eduprov.com/bds-course.html">BDS</a>
+          </p> 
+          <p>
+            <a id="links" href="https://eduprov.com/bpt-course.html">BPT</a>
+          </p> 
+           <hr style="color:gray"/>
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Engineering</label>
+          <p>
+            <a id="links" href="https://eduprov.com/btech-computer-science-engineering.html">B.Tech CS</a>
+          </p> 
+          <p>
+            <a id="links" href="https://eduprov.com/btech-it-course.html">B.Tech IT</a>
+          </p> 
+          <p>
+            <a id="links" href="https://eduprov.com/btech-in-eee.html">B.Tech EEE</a>
+          </p>
+          <hr style="color:gray"/> 
+           <label class="text-uppercase mb-4 fw-bold lh-4 text-white course-label">MBA</label>
+           <p>
+            <a id="links" href="https://eduprov.com/mba-banking-finance-course.html">Finance Management</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/retail-management-course.html">Retail Management</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/human-resource-course.html">Human Resources</a>
+          </p> 
+        </div>
+        <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Para Medical </label>
+           <p>
+            <a id="links" href="https://eduprov.com/bsc-nuro-course.html">BSc Nuro</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/bsc-nursing-course.html">BSc Nursing</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/b-pharm-course.html">B.Pharm</a>
+          </p> 
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Technical</label>
+          <p>
+            <a id="links" href="https://eduprov.com/bsc-computer-course.html">BSc.CS</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/bachelor-of-computer-application.html">BCA</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/mca-course.html">MCA</a>
+          </p>
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Law </label>
+          <p>
+            <a id="links" href="https://eduprov.com/llb-course.html">LLB</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/master-of-law-course.html">LLM</a>
+          </p>
+        </div>
+        <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Commerce</label>
+           <p>
+            <a id="links" href="https://eduprov.com/bachelor-of-commerce-honours.html">B.Com(hons)</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/bachelor-of-commerce-professional.html">B.Com(Professional)</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/bachelor-of-business-administration.html">BBA</a>
+          </p>
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Exam</label>
+          <p>
+            <a id="links" href="https://eduprov.com/kcet-exam-information.html">KCET</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/jee-exam-blog.html">JEE</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/neet-exam-blog.html">NEET</a>
+          </p>
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Education</label>
+          <p>
+           <a id="links" href="https://eduprov.com/bachelor-of-education-course.html">B.Ed</a>
+         </p>
+         <p>
+           <a id="links" href="https://eduprov.com/master-of-education-course.html">M.Ed</a>
+         </p>
+        </div>
+        <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Quick Links</label>
+          <p>
+            <a id="links" href="https://eduprov.com/contact-form.php">Contact us</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/application-form.php">Application form</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/admission-guidance.html">Admission Guidance</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/career-counseling.html">Career counseling</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/overseas-education.html">Overseas education</a>
+          </p>
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Counseling</label>
+          <p>
+            <a id="links" href="https://eduprov.com/career-after-sslc.html">Career after 10th / SSLC</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/career-after-puc.html">Career after 12th / PUC</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto  mt-1"></div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
+      </div>
+      <hr>
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8"
+          <!--Copyright-->
+          <p class="text-center text-md-left">Eduprov Educational Institute 2021 © Copyright :
+            <a href="https://www.thephotogenicbug.in">
+              <strong>thephotogenicbug</strong>
+            </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+  
+          <!-- Social buttons -->
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/eduprovinstitute/" class="btn btn-primary btn-rounded btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/eduprov" class="btn btn-info btn-rounded btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/eduprov-educational-institute-ab2b24115/" class="btn btn-secondary btn-rounded btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/eduprov_education/" class="btn btn-danger btn-rounded btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+  </footer>
+  <!-- Footer end -->
+   <script src="test.js"></script>
+</body>
+</html>
