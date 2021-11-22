@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --color-bg: #EEEDEB;
-  --color-title: #0E1C4E;
-  
-  --color-summary-1: #FFF6EE;
-  --color-summary-1-highlight: #FFC48B;
-  --color-summary-2: #FAFAFF;
-  --color-summary-2-highlight: #B4B3FF;
-  --color-summary-3: #FFF0F3;
-  --color-summary-3-highlight: #FFB3C0;
-  
-  --font-ibm-plex-sans: 'IBM Plex Sans', sans-serif;
+  --color-bg: #eeedeb;
+  --color-title: #0e1c4e;
+
+  --color-summary-1: #fff6ee;
+  --color-summary-1-highlight: #ffc48b;
+  --color-summary-2: #fafaff;
+  --color-summary-2-highlight: #b4b3ff;
+  --color-summary-3: #fff0f3;
+  --color-summary-3-highlight: #ffb3c0;
+
+  --font-ibm-plex-sans: "IBM Plex Sans", sans-serif;
 }
-
-
 
 #accordian-card {
   background: white;
@@ -22,10 +20,10 @@
   margin-top: 40px;
   margin-bottom: 40px;
   border-radius: 4px;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
   max-width: 100em;
   width: 100%;
-  
+
   h1 {
     font-family: var(--font-ibm-plex-sans);
     font-style: normal;
@@ -35,50 +33,50 @@
     color: var(--color-title);
     margin-bottom: 20px;
   }
-  
+
   details {
     display: flex;
-    
     border-radius: 5px;
     overflow: hidden;
-    background: rgba(0, 0, 0, .05);
+    background: rgba(0, 0, 0, 0.05);
     border-left: 15px solid gray;
-    padding:15px;
+    padding: 15px;
     & {
       margin-top: 15px;
     }
-    
+
     &.warning {
-       --highlight: var(--color-summary-1-highlight) ;
+      --highlight: var(--color-summary-1-highlight);
       background: var(--color-summary-1);
       border-left-color: var(--color-summary-1-highlight);
       p {
         list-style-type: job-warning;
       }
     }
-    
+
     &.info {
-       --highlight: var(--color-summary-2-highlight) ;
+      --highlight: var(--color-summary-2-highlight);
       background: var(--color-summary-2);
       border-left-color: var(--color-summary-2-highlight);
       p {
-        list-style-type:job-info;
+        list-style-type: job-info;
       }
     }
-    
+
     &.alert {
-      --highlight: var(--color-summary-3-highlight) ;
+      --highlight: var(--color-summary-3-highlight);
       background: var(--color-summary-3);
       border-left-color: var(--highlight);
       p {
         list-style-type: job-alert;
       }
     }
-    
-    summary,p {
-      position:relative;
-      display:flex;
-      flex-direction:row;
+
+    summary,
+    p {
+      position: relative;
+      display: flex;
+      flex-direction: row;
       align-content: center;
       justify-content: flex-start;
       font-family: var(--font-ibm-plex-sans);
@@ -87,39 +85,37 @@
       font-size: 18px;
       color: var(--color-title);
       padding: 20px;
-      cursor:pointer;
+      cursor: pointer;
       &::-webkit-details-marker {
-        display:none;
+        display: none;
       }
       &:focus {
         outline: solid 3px var(--highlight);
       }
       &::selection {
-        background-color:var(--highlight);
+        background-color: var(--highlight);
       }
     }
     p {
       display: list-item;
-      cursor:default;
-      margin-left:3rem;
+      cursor: default;
+      margin-left: 3rem;
       list-style-type: job;
     }
-    
+
     summary::before {
       cursor: pointer;
-      position:absolute;
-      display:inline-flex;
-      width:1rem;
-      height:1rem;
+      position: absolute;
+      display: inline-flex;
+      width: 1rem;
+      height: 1rem;
       left: 0rem;
-      margin-right:.5rem;
+      margin-right: 0.5rem;
       content: url("data:image/svg+xml,%3Csvg width='100%' height='100%' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22.6066 12H1.3934' stroke='%23202842' stroke-width='1.875' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M12 1.39343V22.6066' stroke='%23202842' stroke-width='1.875' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-
     }
-    
+
     &[open] {
       summary {
-        
         font-weight: 700;
 
         &::before {
@@ -130,21 +126,3 @@
     }
   }
 }
-
-@counter-style job-warning {
-  system: cyclic;
-  symbols: 🧬 🧬 🧬 🧬;
-  suffix: " ";
-}
-@counter-style job-info {
-  system: cyclic;
-  symbols: 🧬;
-  suffix: " ";
-}
-@counter-style job-alert {
-  system: cyclic;
-  symbols: 🧬 🧬 🧬 🧬 🧬;
-  suffix: " ";
-}
-
-

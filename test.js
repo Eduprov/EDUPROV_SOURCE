@@ -106,3 +106,9 @@ $(document).ready(function () {
     autoPlay: true,
   });
 });
+
+
+/* FAQ JS SCRIPT */
+
+
+
