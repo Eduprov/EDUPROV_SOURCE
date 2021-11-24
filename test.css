@@ -44,7 +44,7 @@ a {
 }
 
 .header .item-left {
-  flex: 0 0 17%;
+  flex: 0 0 15%;
 }
 .edu-logo {
   height: 170px;
@@ -53,13 +53,13 @@ a {
   margin-left: 20px;
 }
 .header .item-center {
-  flex: 0 0 66%;
+  flex: 0 0 83%;
 }
-.header .item-right {
+/* .header .item-right {
   flex: 0 0 17%;
   display: flex;
   justify-content: flex-end;
-}
+} */
 .header .item-right a {
   text-decoration: none;
   font-size: 16px;
