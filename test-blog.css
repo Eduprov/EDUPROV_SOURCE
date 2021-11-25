@@ -417,13 +417,11 @@ a {
   }
 }
 
-
-#links{
+#links {
   color: #fff;
 }
 
-
-.wrapper{
+.wrapper {
   max-width: 700px;
   width: 100%;
   /* margin: 200px auto; */
@@ -431,19 +429,19 @@ a {
   border-radius: 5px;
   background: #fff;
 }
-.wrapper header{
+.wrapper header {
   font-size: 30px;
   font-weight: 600;
   padding-bottom: 20px;
 }
-.wrapper nav{
+.wrapper nav {
   position: relative;
   width: 100%;
   height: 50px;
   display: flex;
   align-items: center;
 }
-.wrapper nav label{
+.wrapper nav label {
   display: block;
   height: 100%;
   width: 100%;
@@ -458,22 +456,22 @@ a {
   margin: 0 5px;
   transition: all 0.3s ease;
 }
-.wrapper nav label:hover{
+.wrapper nav label:hover {
   background: #0e916a;
   color: #fff;
-   border-radius: 55px;
+  border-radius: 55px;
 }
 #home:checked ~ nav label.home,
 #blog:checked ~ nav label.blog,
 #code:checked ~ nav label.code,
 #help:checked ~ nav label.help,
-  #about:checked ~ nav label.about{
+#about:checked ~ nav label.about {
   color: #fff;
 }
-nav label i{
+nav label i {
   padding-right: 7px;
 }
-nav .slider{
+nav .slider {
   position: absolute;
   height: 100%;
   width: 20%;
@@ -484,22 +482,22 @@ nav .slider{
   background: #0a7353;
   transition: all 0.3s ease;
 }
-input[type="radio"]{
+input[type="radio"] {
   display: none;
 }
-#blog:checked ~ nav .slider{
+#blog:checked ~ nav .slider {
   left: 20%;
 }
-#code:checked ~ nav .slider{
+#code:checked ~ nav .slider {
   left: 40%;
 }
-#help:checked ~ nav .slider{
+#help:checked ~ nav .slider {
   left: 60%;
 }
-#about:checked ~ nav .slider{
+#about:checked ~ nav .slider {
   left: 80%;
 }
-section .content{
+section .content {
   display: none;
   background: #fff;
 }
@@ -507,188 +505,187 @@ section .content{
 #blog:checked ~ section .content-2,
 #code:checked ~ section .content-3,
 #help:checked ~ section .content-4,
-#about:checked ~ section .content-5{
+#about:checked ~ section .content-5 {
   display: block;
 }
-section .content .title{
+section .content .title {
   font-size: 21px;
   font-weight: 500;
   margin: 30px 0 10px 0;
 }
-section .content p{
-text-align: justify;
+section .content p {
+  text-align: justify;
 }
 
-@media (max-width: 991px){
-  .wrapper{
-  max-width: 700px;
-  width: 100%;
-  margin: 200px auto;
-  padding: 25px 30px 30px 30px;
-  border-radius: 5px;
-  background: #fff;
+@media (max-width: 991px) {
+  .wrapper {
+    max-width: 700px;
+    width: 100%;
+    margin: 200px auto;
+    padding: 25px 30px 30px 30px;
+    border-radius: 5px;
+    background: #fff;
+  }
+  .wrapper header {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  .wrapper nav {
+    position: relative;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .wrapper nav label {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    color: #31b88f;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    margin: 1%;
+  }
+  .wrapper nav label:hover {
+    background: #0e916a;
+    color: #fff;
+    border-radius: 55px;
+  }
+  #home:checked ~ nav label.home,
+  #blog:checked ~ nav label.blog,
+  #code:checked ~ nav label.code,
+  #help:checked ~ nav label.help,
+  #about:checked ~ nav label.about {
+    color: #fff;
+    background: #0a7353;
+    border-radius: 55px;
+  }
+  nav label i {
+    padding-right: 7px;
+  }
+  nav .slider {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    border-radius: 55px;
+    background: #0a7353;
+    transition: all 0.3s ease;
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  #blog:checked ~ nav .slider {
+    right: 20%;
+    color: #000000;
+  }
+  #code:checked ~ nav .slider {
+    right: 40%;
+    color: #000000;
+  }
+  #help:checked ~ nav .slider {
+    top: 60%;
+    color: #000000;
+  }
+  #about:checked ~ nav .slider {
+    top: 80%;
+    color: #000000;
+  }
+  section .content {
+    display: none;
+    background: #fff;
+  }
+  #home:checked ~ section .content-1,
+  #blog:checked ~ section .content-2,
+  #code:checked ~ section .content-3,
+  #help:checked ~ section .content-4,
+  #about:checked ~ section .content-5 {
+    display: block;
+    margin-top: 50%;
+  }
+  section .content .title {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 30px 0 10px 0;
+  }
+  section .content p {
+    text-align: justify;
+  }
 }
-.wrapper header{
-  font-size: 30px;
-  font-weight: 600;
-  padding-bottom: 20px;
-}
-.wrapper nav{
-  position: relative;
-  width: 50%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.wrapper nav label{
-  display: block;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  line-height: 50px;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
-  color: #31b88f;
-  font-size: 17px;
-  border-radius: 5px;
-  margin: 0 5px;
-  transition: all 0.3s ease;
-  margin: 1%;
-}
-.wrapper nav label:hover{
-  background: #0e916a;
-  color: #fff;
-   border-radius: 55px;
-}
-#home:checked ~ nav label.home,
-#blog:checked ~ nav label.blog,
-#code:checked ~ nav label.code,
-#help:checked ~ nav label.help,
-#about:checked ~ nav label.about{
-  color: #fff;
-   background: #0a7353;
-   border-radius: 55px;
-  
-}
-nav label i{
-  padding-right: 7px;
-}
-nav .slider{
-  position: absolute;
-  height: 100%;
-  width: 0%;
-  left: 0;
-  bottom: 0;
-  z-index: 0;
-  border-radius: 55px;
-  background: #0a7353;
-  transition: all 0.3s ease;
-}
-input[type="radio"]{
-  display: none;
-}
-#blog:checked ~ nav .slider{
-  right: 20%;
-  color: #000000;
-}
-#code:checked ~ nav .slider{
-  right: 40%;
-   color: #000000;
-}
-#help:checked ~ nav .slider{
-  top: 60%;
-   color: #000000;
-}
-#about:checked ~ nav .slider{
-  top: 80%;
-   color: #000000;
-}
-section .content{
-  display: none;
-  background: #fff;
-}
-#home:checked ~ section .content-1,
-#blog:checked ~ section .content-2,
-#code:checked ~ section .content-3,
-#help:checked ~ section .content-4,
-#about:checked ~ section .content-5{
-  display: block;
-  margin-top: 50%;
-}
-section .content .title{
-  font-size: 21px;
-  font-weight: 500;
-  margin: 30px 0 10px 0;
-  
-}
-section .content p{
-text-align: justify;
-}
-
-}
-.content_title{
+.content_title {
   color: #0a7353;
+  margin-top: ;
 }
 
-.faq_heading{
+
+.faq_heading {
   text-align: center;
-    padding: 35px 0;
-    font-size: 40px;
+  padding: 35px 0;
+  font-size: 40px;
 }
 
 .container-faq {
-    width: 100%;
-    max-width: 900px;
-    min-width: 300px;
-    height: auto;
-    padding: 0 20px;
-    margin: 10px auto 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  width: 100%;
+  max-width: 900px;
+  min-width: 300px;
+  height: auto;
+  padding: 0 20px;
+  margin: 10px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .questions {
-    width: 100%;
-    height: auto;
-    margin: 5px;
-    cursor: pointer;
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  cursor: pointer;
 }
 
 .visible-pannel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #f1f1f1;
-    border-radius: 10px;
-    position: relative;
-    padding: 15px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 10px;
+  position: relative;
+  padding: 15px 5px;
 }
 
 .visible-pannel h4 {
-    margin-left: 10px;
-    font-size: 16px;
-    pointer-events: none;
+  margin-left: 10px;
+  font-size: 16px;
+  pointer-events: none;
 }
 
 .visible-pannel img {
-    margin-right: 10px;
-    width: 25px;
-    cursor: pointer;
-    pointer-events: none;
+  margin-right: 10px;
+  width: 25px;
+  cursor: pointer;
+  pointer-events: none;
 }
 .toggle-pannel {
-    padding: 0px 15px;
-    height: 0px;
-    opacity: 0;
+  padding: 0px 15px;
+  height: 0px;
+  opacity: 0;
 }
 .toggle-pannel h4 {
-    font-size: 18px;
-    padding-bottom: 10px;
+  font-size: 18px;
+  padding-bottom: 10px;
 }
 .toggle-pannel p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
