@@ -467,7 +467,18 @@ a {
   margin-top: 4%;
   color: #4e8df2;
 }
+.req_font{
+  font-size: 18px;
+  color:#4e8df2;
 
+}
+.req1{
+  font-size: 14px;
+    color: #000000;
+}
+.req2{
+  font-size: 14px;
+}
 :root {
   --blue: #4E8DF2;
   --white: #fff;
@@ -503,8 +514,6 @@ body,
 
   
 }
-
-
 .tabs-to-dropdown .nav-tabs li:not(:last-child) {
   margin-right: 30px;
 }
