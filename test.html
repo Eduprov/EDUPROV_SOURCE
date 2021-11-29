@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css" />
+        <!-- MDB Font-awesome-->
+    <link    rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link   rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Mega menu start -->
+    <header class="header">
+      <div class="header-container">
+        <div class="header-row v-center">
+          <div class="header-item item-left">
+            <div class="logo">
+              <a href="#">
+                <img src="images/favicon.png" class="edu-logo" alt="eduprov-navbar-logo" title="eduprov" />
+              </a>
+            </div>
+          </div>
+          <!-- menu start here -->
+          <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+              <div class="mobile-menu-head">
+                <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="menu-main">
+                <li>
+                  <a href="https://eduprov.com/">Home</a>
+                </li>
+                 <li>
+                  <a href="https://eduprov.com/admission-guidance.html">Admission Guidance</a>
+                </li>
+                 <li>
+                  <a href="https://eduprov.com/career-counseling.html">Career Counselling</a>
+                </li>
+                 <li>
+                  <a href="https://eduprov.com/application-form.php">Application Form</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">Medical <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/bams.html">BAMS</a></li>
+                      <li><a href="https://eduprov.com/bds-course.html">BDS</a></li>
+                      <li><a href="https://eduprov.com/bhms-course.html">BHMS</a></li>
+                      <li><a href="https://eduprov.com/mbbs-course.html">MBBS</a></li>
+                      <li><a href="https://eduprov.com/bums-course.html">BUMS</a></li>
+                      <li><a href="https://eduprov.com/bpt-course.html">BPT</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/doctor-of-medicine-course.html">M.D</a></li>
+                      <li><a href="https://eduprov.com/d-pharama-course.html">Pharm.D</a></li>
+                      <li><a href="https://eduprov.com/mds-course.html">MDS</a></li>
+                      <li><a href="https://eduprov.com/md-unani-course.html">MD Unani</a></li>
+                      <li><a href="https://eduprov.com/md-anaesthesia-course.html">MD Anesthesia</a></li>
+                    </ul>
+                  </div>
+                </li>
+                 <!-- <li class="menu-item-has-children">
+                  <a href="#">Engineering <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                      <h4 class="title">Diploma</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/diploma-in-engineering.html">Diploma in Engineering</a></li>
+                    </ul>
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/btech-in-aerospace.html">B.Tech Aerospace Engineering</a></li>
+                      <li><a href="https://eduprov.com/btech-in-automobile.html">B.Tech Automobile Engineering</a></li>
+                      <li><a href="https://eduprov.com/btech-in-construction.html">B.Tech in Construction Engineering</a></li>
+                      <li><a href="https://eduprov.com/btech-in-dairy-technology.html">B.Tech Dairy Technology</a></li>
+                      <li><a href="https://eduprov.com/btech-in-eee.html">B.Tech in Electronics and Electrical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-ece.html">B.Tech Electronics and Communication </a></li>
+                      <li><a href="https://eduprov.com/btech-in-ete.html">B.Tech Electronics and Telecommunication</a></li>
+                      <li><a href="https://eduprov.com/btech-it-course.html">B.Tech Information Technology</a></li>
+                      <li><a href="https://eduprov.com/btech-infrastructure.html">B.Tech Infrastructure</a></li>
+                      <li><a href="https://eduprov.com/btech-in-instrumentation.html">B.Tech Instrumentation</a></li>
+                      <li><a href="https://eduprov.com/btech-in-marine.html">B.Tech Marine</a></li>
+                      <li><a href="https://eduprov.com/btech-in-mining.html">B.Tech Mining</a></li>
+                      <li><a href="https://eduprov.com/btech-motorsport.html">B.Tech Motorsport</a></li>
+                      <li><a href="https://eduprov.com/btech-in-petroleum.html">B.Tech Petroleum</a></li>
+                      <li><a href="https://eduprov.com/btech-in-production.html">B.Tech Production</a></li>
+                      <li><a href="https://eduprov.com/btech-safety-fire.html">B.Tech Fire & Safety</a></li>
+                      <li><a href="https://eduprov.com/btech-sound-engineering.html">B.Tech Sound</a></li>
+                      <li><a href="https://eduprov.com/btech-textile.html">B.Tech Textile</a></li>
+                      <li><a href="https://eduprov.com/btech-aeronautical-engineering-admission.html">B.Tech Aeronautical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-chemical.html">B.Tech Chemical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-genetic.html">B.Tech Genetic</a></li>
+                      <li><a href="https://eduprov.com/btech-mechanical-engineering-admission.html">B.Tech Mechanical</a></li>
+                      <li><a href="https://eduprov.com/btech-metallurgical.html">B.Tech Metallurgical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-naval.html">B.Tech Naval</a></li>
+                      <li><a href="https://eduprov.com/btech-in-power.html">B.Tech Power</a></li>
+                      <li><a href="https://eduprov.com/btech-in-plastic.html">B.Tech Plastic</a></li>
+                      <li><a href="https://eduprov.com/btech-in-biotechnolgy.html">B.Tech Biotechnology</a></li>
+                      <li><a href="https://eduprov.com/btech-in-biomedical.html">B.Tech Biomedical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-biochemical.html">B.Tech Biochemical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-civil.html">B.Tech Civil</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-engineering.html">Master of Engineering</a></li>
+                    </ul>
+                  </div>
+                </li>
+              
+                <li class="menu-item-has-children">
+                  <a href="#">MBA <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/facility-management-course.html">MBA Facility Management</a></li>
+                      <li><a href="https://eduprov.com/mba-banking-finance-course.html">MBA Banking and Finance</a></li>
+                      <li><a href="https://eduprov.com/export-management-course.html">MBA Export management</a></li>
+                      <li><a href="https://eduprov.com/finance-management.html">MBA Finance Management</a></li>
+                      <li><a href="https://eduprov.com/healthcare-management-course.html">MBA Healthcare Management</a></li>
+                      <li><a href="https://eduprov.com/human-resource-course.html">MBA Human Resource Management</a></li>
+                      <li><a href="https://eduprov.com/logistics-management-course.html">MBA Logistics Management</a></li>
+                      <li><a href="https://eduprov.com/organizational-studies.html">MBA Organizational Behavior</a></li>
+                      <li><a href="https://eduprov.com/retail-management-course.html">MBA Retail Management</a></li>
+                    </ul>
+                  </div>
+                </li> -->
+                <!-- <li class="menu-item-has-children">
+                  <a href="#">Law <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/llb-course.html">Bachelor of Legislative Law</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-law-course.html">Master of Law</a></li>
+                    </ul>
+                  </div>
+                </li> -->
+                
+                <li class="menu-item-has-children">
+                  <a href="#">Science <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/bsc-bioinformation-course.html">B.Sc Bioinformatics</a></li>
+                      <li><a href="https://eduprov.com/bsc-biotechnology-course.html">B.Sc Biotechnology</a></li>
+                      <li><a href="https://eduprov.com/bsc-chemistry-course.html">B.Sc Chemistry</a></li>
+                      <li><a href="https://eduprov.com/bsc-dairy-technology-course.html">B.Sc Dairy Technology</a></li>
+                      <li><a href="https://eduprov.com/bsc-food-processing-and-technology-course.html.html">B.Sc Food Processing & Technology</a></li>
+                      <li><a href="https://eduprov.com/bsc-forensic-science-course.html">B.Sc Forensic Science</a></li>
+                      <li><a href="https://eduprov.com/bsc-forestry-course.html">B.Sc Forestry</a></li>
+                      <li><a href="https://eduprov.com/bsc-horticulture-course.html">B.Sc Horticulture</a></li>
+                      <li><a href="https://eduprov.com/bsc-mathematics-course.html">B.Sc Mathematics</a></li>
+                      <li><a href="https://eduprov.com/bsc-zoology-course.html">B.Sc Zoology</a></li>
+                      <li><a href="https://eduprov.com/bsc-agriculture-course.html">B.Sc Agriculture</a></li>
+                      <li><a href="https://eduprov.com/bsc-in-biology.html">B.Sc Biology</a></li>
+                      <li><a href="https://eduprov.com/bsc-in-botany.html">B.Sc Botany</a></li>
+                      <li><a href="https://eduprov.com/bsc-in-physics.html">B.Sc Physics</a></li>
+                      <li><a href="https://eduprov.com/bsc-in-pure-science.html">B.Sc Pure Science</a></li>
+                      <li><a href="https://eduprov.com/bsc-in-food-science.html">B.Sc Food Science</a></li>
+                      <li><a href="https://eduprov.com/bsc.html">Bachelor of Science</a></li>
+                      <li><a href="https://eduprov.com/bsc-in-microbiology.html">B.Sc Microbiology</a></li>
+                      <li><a href="https://eduprov.com/bsc-statistics.html">Bachelor of Statistics</a></li>
+                      <li><a href="https://eduprov.com/bsc-photography.html">B.Sc Photography</a></li>
+                       
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-science.html">Master of Science</a></li>
+                    </ul>
+                  </div>
+                </li>
+                
+                 <!-- <li class="menu-item-has-children">
+                  <a href="#">More <i class="fa fa-angle-down"></i></a>
+                  <div class="sub-menu mega-menu mega-menu-column-4">
+                    <div class="list-item">
+                    <h4 class="title">Law Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/llb-course.html">Bachelor of Legislative Law</a></li>
+                    </ul>
+                    <h4 class="title">Law Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-law-course.html">Master of Law</a></li>
+                    </ul>
+                     <h4 class="title">Designing Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/bfd-course.html">BFD</a></li>
+                      <li><a href="https://eduprov.com/bachelor-of-designing-course.html">Bachelor of Designing</a></li>
+                      
+                    </ul>
+                    <h4 class="title">Designing Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-designing-course.html">M.D</a></li>
+                      
+                    </ul>
+                     <h4 class="title">Technical Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-designing-course.html">M.D</a></li>
+                      
+                    </ul>
+                     <h4 class="title">Technical Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-designing-course.html">M.D</a></li>
+                      
+                    </ul>
+                    
+                      
+                    </div>
+                    <div class="list-item">
+                       <h4 class="title">Arts Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/bachelor-in-mass-communication.html">BMC</a></li>
+                      <li><a href="https://eduprov.com/bachelor-of-physical-education.html">B.P.Ed</a></li>
+                      <li><a href="https://eduprov.com/bachelor-of-social-work.html">BSW</a></li>
+                      <li><a href="https://eduprov.com/bachelor-of-archaelogy.html">Bachelor of Archaelogy</a></li>
+                      <li><a href="https://eduprov.com/bachelor-of-arts.html">Bachelor of Arts</a></li>
+                      <li><a href="https://eduprov.com/bachelor-of-dance.html">Bachelor of Dance</a></li>
+                    </ul>
+                    <h4 class="title">Arts Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-arts.html">Master of Arts</a></li>
+                    </div>
+                       <div class="list-item">
+                       <h4 class="title">Education Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/bachelor-of-education-course.html">B.Ed</a></li>
+                    </ul>
+                    <h4 class="title">Education Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-education-course.html">M.Ed</a></li>
+                    </div>
+                        <div class="list-item">
+                       <h4 class="title">Para-Medical Diploma</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/bachelor-of-education-course.html">B.Ed</a></li>
+                    </ul>
+                    <h4 class="title">Para-Medical Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-education-course.html">M.Ed</a></li>
+                    </div>
+                   
+                  </div>
+                </li> -->
+              </ul>
+            </nav>
+          </div>
+          <!-- menu end here -->
+          <div class="header-item item-right">
+           <!-- <i class="fas fa-sign-in-alt"></i>
+           <i class="fas fa-user-plus"></i> -->
+            <!-- mobile menu trigger -->
+            <div class="mobile-menu-trigger">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+      <!-- Mega menu end -->
+
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+                <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">BAMS</li>
+                </ol>
+              </nav>
+              <h1 class="heading_font">Bachelor of Ayurvedic Medicine and Surgery</h1>
+         </div>
+       </div>
+     </div>
+   <div class="tabs-to-dropdown">
+  <div class="nav-wrapper d-flex align-items-center justify-content-between">
+    <ul class="nav nav-tabs d-none d-md-flex" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-company-tab" data-toggle="pill" href="#pills-company" role="tab" aria-controls="pills-company" aria-selected="true">Overview</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-product-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">Eligibility Criteria</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-news-tab" data-toggle="pill" href="#pills-news" role="tab" aria-controls="pills-news" aria-selected="false">Colleges</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Scope</a>
+      </li>
+       <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Job Details</a>
+      </li>
+    
+    </ul>
+    
+  </div>
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-md-9">
+   <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-company" role="tabpanel" aria-labelledby="pills-company-tab">
+      <div class="container-fluid">
+         <h2 class="mb-3 content-heading ">Bachelor of Ayurvedic Medicine and Surgery</h2>
+         <div class="author_data">
+          <label class="updated_label">Updated on Nov 29,2021</label>
+         </div>
+         <p class="text-justify">
+           <b> Bachelor of Ayurvedic Medicine and Surgery / BAMS</b> is an integrated Indian medical undergraduate degree program that offers students a wonderful and useful mixture of both modern medicine and traditional knowledge of Ayurveda. Ayurveda is one of the ancient medical systems of the world. It traces its roots to the Vedic period. It is not only providing the cure but also prevent the recurrence of diseases. BAMS (Bachelor of Ayurvedic Medicine and Surgery) is an undergraduate degree program in old and ancient Ayurvedic medical system containing the prevention and cure to the body by increasing the harmony of Kapha, pitta, and Vata.
+         </p>
+         <p class="text-justify">
+           BAMS is one of the best courses after 12th for science students. The undergraduate medical degree is a four and a half year-long course and an extra one year of internship period program to get a live practical and real-life approach so that the students gain experience in reputed hospitals. The course has three sections, each for one and a half year-long period. These three sections are called as professionals or professional courses where the students will learn anatomy, physiology, Ayurveda and its long history, Sanskrit, toxicology, pharmacology both in allopathy and Ayurveda terms, surgery, ENT, skin, obstetrics, and gynecology. The graduates also learn about modern anatomy, principles of allopathic medicine, newer surgery methods, forensic medicine, botany, and preventive medicines. The student doctors graduate as a Vaidyar or Vr.
+         </p>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-product" role="tabpanel" aria-labelledby="pills-product-tab">
+      <div class="container-fluid">
+        <h3 class="mb-3  content-heading ">Eligibility</h3>
+         <div class="author_data">
+          <label class="updated_label">Updated on Nov 29,2021</label>
+          <p class="text-justify">
+            Here is the basic eligibility for students to join BAMS asprescribed by the government of India’s AYUSH department:
+          </p>
+           <ul>
+             <li>The students must be at least 17 years old at the time of admission Obam degree</li>
+             <li>The applicants must have taken physics, chemistry, and biology in 12th or PUC for their high school degree</li>
+             <li>The students must submit the NEET scores and apply for their state CET exams for admission through government quota seats</li>
+           </ul>
+           <p class="text-justify">
+             For admissions in private medical colleges for Ayurveda, you will have to submit your entrance scores and high school scores as well. But if you have a dilemma regarding what college is the best forBAMS or which course to pick, the education consultants at Eduprov will delightfully help you select the best course and college for you. You can also choose to take up career counseling before you choose to get admissions for colleges.
+           </p>
+         </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab">
+      <div class="container-fluid">
+        <h4 class="mb-3 content-heading ">Colleges</h4>
+          <div class="author_data">
+          <label class="updated_label">Updated on Nov 29,2021</label>
+          <p class="text-justify">
+            For admissions in private medical colleges for Ayurveda, you will have to submit your entrance scores and high school scores as well. But if you have a dilemma regarding what college is the best for BAMS or which course to pick, the education consultants at Eduprov will delightfully help you select the best course and college for you. You can also choose to take up career counseling before you choose to get admissions for colleges
+          </p>
+         </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="container-fluid">
+        <h5 class="mb-3 content-heading ">Scope</h5>
+        <div class="author_data">
+          <label class="updated_label">Updated on Nov 29,2021</label>
+         </div>
+         <p class="text-justify">
+            Newer trends have opened up many new careers and job opportunities for Ayurveda students. They can join as junior and senior doctors in government and private hospitals. Several chikitsa centers and Ayurveda clinics also recruit doctors. They can also choose to become professors in prestigious Ayurveda medical colleges. The students can also become health officers, pharmacologists, distributes, etc. If not, they can also open their own practice after the completion of BAMS. The job opportunities are limitless for students after this course.
+         </p>
+      </div>
+    </div>
+  </div>
+       </div>
+       <div class="col-md-3 mt-5">
+         <button class="download_button">Download Course Info <i class="fas fa-file-pdf"></i></button>
+         <button class="application_button">Application Form </button>
+       </div>
+     </div>
+   </div>
+
+ 
+</div>
+  <section class=" footer_section">
+          <!--Footer Start-->
+
+    <footer class="page-footer font-small bg-dark pt-4 mt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-left text-md-left">
+  
+      <!-- Footer links -->
+      <div class="row text-left text-md-left mt-3 pb-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Medical</label>
+          <p>
+            <a id="links" href="https://eduprov.com/mbbs-course.html">MBBS</a>
+          </p> 
+          <p>
+            <a id="links" href="https://eduprov.com/bds-course.html">BDS</a>
+          </p> 
+          <p>
+            <a id="links" href="https://eduprov.com/bpt-course.html">BPT</a>
+          </p> 
+           <hr style="color:gray"/>
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Engineering</label>
+          <p>
+            <a id="links" href="https://eduprov.com/btech-computer-science-engineering.html">B.Tech CS</a>
+          </p> 
+          <p>
+            <a id="links" href="https://eduprov.com/btech-it-course.html">B.Tech IT</a>
+          </p> 
+          <p>
+            <a id="links" href="https://eduprov.com/btech-in-eee.html">B.Tech EEE</a>
+          </p>
+          <hr style="color:gray"/> 
+           <label class="text-uppercase mb-4 fw-bold lh-4 text-white course-label">MBA</label>
+           <p>
+            <a id="links" href="https://eduprov.com/mba-banking-finance-course.html">Finance Management</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/retail-management-course.html">Retail Management</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/human-resource-course.html">Human Resources</a>
+          </p> 
+        </div>
+        <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Para Medical </label>
+           <p>
+            <a id="links" href="https://eduprov.com/bsc-nuro-course.html">BSc Nuro</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/bsc-nursing-course.html">BSc Nursing</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/b-pharm-course.html">B.Pharm</a>
+          </p> 
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Technical</label>
+          <p>
+            <a id="links" href="https://eduprov.com/bsc-computer-course.html">BSc.CS</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/bachelor-of-computer-application.html">BCA</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/mca-course.html">MCA</a>
+          </p>
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Law </label>
+          <p>
+            <a id="links" href="https://eduprov.com/llb-course.html">LLB</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/master-of-law-course.html">LLM</a>
+          </p>
+        </div>
+        <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Commerce</label>
+           <p>
+            <a id="links" href="https://eduprov.com/bachelor-of-commerce-honours.html">B.Com(hons)</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/bachelor-of-commerce-professional.html">B.Com(Professional)</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/bachelor-of-business-administration.html">BBA</a>
+          </p>
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Exam</label>
+          <p>
+            <a id="links" href="https://eduprov.com/kcet-exam-information.html">KCET</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/jee-exam-blog.html">JEE</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/neet-exam-blog.html">NEET</a>
+          </p>
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Education</label>
+          <p>
+           <a id="links" href="https://eduprov.com/bachelor-of-education-course.html">B.Ed</a>
+         </p>
+         <p>
+           <a id="links" href="https://eduprov.com/master-of-education-course.html">M.Ed</a>
+         </p>
+        </div>
+        <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Quick Links</label>
+          <p>
+            <a id="links" href="https://eduprov.com/contact-form.php">Contact us</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/application-form.php">Application form</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/admission-guidance.html">Admission Guidance</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/career-counseling.html">Career counseling</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/overseas-education.html">Overseas education</a>
+          </p>
+          <hr style="color:gray"/> 
+          <label class="text-uppercase mb-4 font-weight-bold text-white">Counseling</label>
+          <p>
+            <a id="links" href="https://eduprov.com/career-after-sslc.html">Career after 10th / SSLC</a>
+          </p>
+          <p>
+            <a id="links" href="https://eduprov.com/career-after-puc.html">Career after 12th / PUC</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto  mt-1"></div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
+      </div>
+      <hr>
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8"
+          <!--Copyright-->
+          <p class="text-center text-md-left">Eduprov Educational Institute 2021 © Copyright :
+            <a href="https://www.thephotogenicbug.in">
+              <strong>thephotogenicbug</strong>
+            </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+  
+          <!-- Social buttons -->
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/eduprovinstitute/" class="btn btn-primary btn-rounded btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/eduprov" class="btn btn-info btn-rounded btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/eduprov-educational-institute-ab2b24115/" class="btn btn-secondary btn-rounded btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/eduprov_education/" class="btn btn-danger btn-rounded btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+  </footer>
+  <!-- Footer -->
+      </section>
+
+
+   <script>
+   const $tabsToDropdown = $(".tabs-to-dropdown");
+
+function generateDropdownMarkup(container) {
+  const $navWrapper = container.find(".nav-wrapper");
+  const $navPills = container.find(".nav-tabs");
+  const firstTextLink = $navPills.find("li:first-child a").text();
+  const $items = $navPills.find("li");
+  const markup = `
+    <div class="dropdown d-md-none">
+      <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        ${firstTextLink}
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
+        ${generateDropdownLinksMarkup($items)}
+      </div>
+    </div>
+  `;
+  $navWrapper.prepend(markup);
+}
+
+function generateDropdownLinksMarkup(items) {
+  let markup = "";
+  items.each(function () {
+    const textLink = $(this).find("a").text();
+    markup += `<a class="dropdown-item" href="#">${textLink}</a>`;
+  });
+
+  return markup;
+}
+
+function showDropdownHandler(e) {
+  // works also
+  //const $this = $(this);
+  const $this = $(e.target);
+  const $dropdownToggle = $this.find(".dropdown-toggle");
+  const dropdownToggleText = $dropdownToggle.text().trim();
+  const $dropdownMenuLinks = $this.find(".dropdown-menu a");
+  const dNoneClass = "d-none";
+  $dropdownMenuLinks.each(function () {
+    const $this = $(this);
+    if ($this.text() == dropdownToggleText) {
+      $this.addClass(dNoneClass);
+    } else {
+      $this.removeClass(dNoneClass);
+    }
+  });
+}
+
+function clickHandler(e) {
+  e.preventDefault();
+  const $this = $(this);
+  const index = $this.index();
+  const text = $this.text();
+  $this.closest(".dropdown").find(".dropdown-toggle").text(`${text}`);
+  $this
+    .closest($tabsToDropdown)
+    .find(`.nav-tabs li:eq(${index}) a`)
+    .tab("show");
+}
+
+function shownTabsHandler(e) {
+  // works also
+  //const $this = $(this);
+  const $this = $(e.target);
+  const index = $this.parent().index();
+  const $parent = $this.closest($tabsToDropdown);
+  const $targetDropdownLink = $parent.find(".dropdown-menu a").eq(index);
+  const targetDropdownLinkText = $targetDropdownLink.text();
+  $parent.find(".dropdown-toggle").text(targetDropdownLinkText);
+}
+
+$tabsToDropdown.each(function () {
+  const $this = $(this);
+  const $pills = $this.find('a[data-toggle="pill"]');
+
+  generateDropdownMarkup($this);
+
+  const $dropdown = $this.find(".dropdown");
+  const $dropdownLinks = $this.find(".dropdown-menu a");
+
+  $dropdown.on("show.bs.dropdown", showDropdownHandler);
+  $dropdownLinks.on("click", clickHandler);
+  $pills.on("shown.bs.tab", shownTabsHandler);
+});
+
+
+   </script>
+   <script src="test.js"></script>
+</body>
+</html>

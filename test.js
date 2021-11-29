@@ -108,7 +108,5 @@ $(document).ready(function () {
 });
 
 
-/* FAQ JS SCRIPT */
-
 
 

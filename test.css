@@ -17,6 +17,8 @@ body {
 .header-container {
   max-width: 1200px;
   margin: auto;
+  /* position: fixed; */
+  
 }
 .header-row {
   display: flex;
@@ -37,10 +39,12 @@ a {
 .header {
   display: block;
   width: 100%;
-  position: relative;
+  /* position: relative; */
   z-index: 99;
   padding: 15px;
-  margin-top: -50px;
+  margin-top: -110px;
+  /* margin-bottom: 50px !important; */
+  position: fixed;
 }
 
 .header .item-left {
@@ -1123,6 +1127,13 @@ a {
    color: #000000;
   font-size: 16px;
 }
+/* .carousel_image{
+  height: 600px !important;
+  width: 700px !important;
+  background-position: center;
+  background-size: cover; 
+ 
+} */
 
   .social-media-icons {
     display: flex;
