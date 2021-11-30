@@ -579,9 +579,8 @@
 
 
    <script>
-   const $tabsToDropdown = $(".tabs-to-dropdown");
-
-function generateDropdownMarkup(container) {
+  const $tabsToDropdown = $(".tabs-to-dropdown");
+  function generateDropdownMarkup(container) {
   const $navWrapper = container.find(".nav-wrapper");
   const $navPills = container.find(".nav-tabs");
   const firstTextLink = $navPills.find("li:first-child a").text();
