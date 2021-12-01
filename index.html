@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
+   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -79,15 +79,93 @@
 </script>
   </head>
   <body>
-   
-    <!-- Mega menu start -->
+      <style>
+          .carousel-item{
+              height: 37rem;
+              background: black;
+              color: white;
+              position: relative;
+             
+          }
+          .overlay-image{
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              top: 0;
+              background-position: center;
+              background-size: cover;
+              opacity: 0.5;
+
+          }
+          .carousel-margin{
+              margin-top: -125px;
+          }
+          @media (max-width: 991px) {
+              .carousel-margin{
+              margin-top: -85px;
+          }
+          }
+          
+          ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    justify-content: space-around;
+    width:100%;
+    z-index: 100;
+    margin-bottom: 40px;
+}
+
+nav .small_menu{
+    display: flex;
+}
+nav .small_menu li a{
+    height:40px;
+    line-height:43px;
+    margin:0px;
+    padding:0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#ffffff;
+    letter-spacing: 1px;
+}
+nav .small_menu li a:hover{
+    background-color: #242424;
+    color:#ffffff;
+    box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
+    transition: all ease 0.2s;
+}
+.parent_nav{
+    background-color: #3d79db;
+}
+      </style>
+    <nav class="parent_nav">
+        <ul class="small_menu">
+                 <li>
+                  <a href="https://eduprov.com/admission-guidance.html">Admission Guidance</a>
+                </li>
+                 <li>
+                  <a href="https://eduprov.com/career-counseling.html">Career Counselling</a>
+                </li>
+                <li>
+                  <a href="https://eduprov.com/application-form.php">Application form</a>
+                </li>
+        </ul>
+    </nav>
+          <!-- Mega menu start -->
     <header class="header">
       <div class="header-container">
         <div class="header-row v-center">
           <div class="header-item item-left">
             <div class="logo">
               <a href="#">
-                <img src="images/logo.png" class="edu-logo" alt="eduprov-navbar-logo" title="eduprov" />
+                <img src="images/white_logo.png" class="edu-logo" alt="eduprov-navbar-logo" title="eduprov"  style="margin-top: -50px;"/>
               </a>
             </div>
           </div>
@@ -101,15 +179,10 @@
                 <div class="mobile-menu-close">&times;</div>
               </div>
               <ul class="menu-main">
-                <li>
+                  <li>
                   <a href="https://eduprov.com/">Home</a>
                 </li>
-                 <li>
-                  <a href="https://eduprov.com/admission-guidance.html">Admission Guidance</a>
-                </li>
-                 <li>
-                  <a href="https://eduprov.com/career-counseling.html">Career Counselling</a>
-                </li>
+               
                 <li class="menu-item-has-children">
                   <a href="#">Medical <i class="fas fa-angle-down"></i></a>
                   <div class="sub-menu single-column-menu">
@@ -132,7 +205,7 @@
                     </ul>
                   </div>
                 </li>
-                 <!-- <li class="menu-item-has-children">
+                 <li class="menu-item-has-children">
                   <a href="#">Engineering <i class="fas fa-angle-down"></i></a>
                   <div class="sub-menu single-column-menu">
                       <h4 class="title">Diploma</h4>
@@ -195,8 +268,8 @@
                       <li><a href="https://eduprov.com/retail-management-course.html">MBA Retail Management</a></li>
                     </ul>
                   </div>
-                </li> -->
-                <!-- <li class="menu-item-has-children">
+                </li>
+                <li class="menu-item-has-children">
                   <a href="#">Law <i class="fas fa-angle-down"></i></a>
                   <div class="sub-menu single-column-menu">
                     <h4 class="title">Undergraduate</h4>
@@ -208,10 +281,10 @@
                       <li><a href="https://eduprov.com/master-of-law-course.html">Master of Law</a></li>
                     </ul>
                   </div>
-                </li> -->
-                
+                </li>
+<!--                 
                 <li class="menu-item-has-children">
-                  <a href="#">Science <i class="fas fa-angle-down"></i></a>
+                  <a href="#">Arts <i class="fas fa-angle-down"></i></a>
                   <div class="sub-menu single-column-menu">
                     <h4 class="title">Undergraduate</h4>
                     <ul>
@@ -242,9 +315,10 @@
                       <li><a href="https://eduprov.com/master-of-science.html">Master of Science</a></li>
                     </ul>
                   </div>
-                </li>
+                </li> -->
                 
-                 <li class="menu-item-has-children">
+                
+                 <!-- <li class="menu-item-has-children">
                   <a href="#">More <i class="fa fa-angle-down"></i></a>
                   <div class="sub-menu mega-menu mega-menu-column-4">
                     <div class="list-item">
@@ -314,7 +388,7 @@
                     </div>
                    
                   </div>
-                </li>
+                </li> -->
               </ul>
             </nav>
           </div>
@@ -330,111 +404,101 @@
         </div>
       </div>
     </header>
-      <!-- Mega menu end -->
-    <!-- Header section start  -->
-    <section class="section_container">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-xl-8">
-            <label class="home_subheading_title-small">Eduprov Educational institution</label>
-            <h1 class="home_heading_title">
-              Best Admission Guidance in Bangalore
-            </h1>
-            <label class="home_subheading_title">Admission, Study abroad, Career counselling</label><br/>
-              <a class="btn btn-rounded btn-success application_form_button" href="https://eduprov.com/application-form.php">Application Form</a>
-            <div class="wrapper">
-              <div class="search-input">
-                <input type="text" placeholder="Search Course Exams & More" />
-                <div class="autocom-box">
-                  <li><a href="#">BAMS</a></li>
-                  <li><a href="#">BDS</a></li>
-                  <li><a href="#">BHMS</a></li>
-                  <li><a href="#">MBBS</a></li>
-                </div>
-                <div class="icon"><i class="fa fa-search"></i></div>
-              </div>
-            </div>
-            <label class="home_follow_us">Follow us on</label>
-            <div class=" social-media-icons">
-              <div>
-                <a href="https://www.instagram.com/eduprov_education/" target="_blank"><img src="images/insta.png" alt="insta" style="height: 25px; width: 25px;"  /></a>
-              </div>
-              <div >
-                <a href="https://www.facebook.com/eduprovinstitute/" target="_blank"><img src="images/facebook.png" alt="facebook" style="height: 25px; width: 25px;" /></a>
-              </div>
-              <div>
-                <a href="https://www.tumblr.com/blog/eduprov" target="_blank"><img src="images/tumblr.png" alt="tumblr" style="height: 25px; width: 25px;" /></a>
-              </div>
-              <div >
-                <a href="https://twitter.com/eduprov" target="_blank"><img src="images/twitter.png" alt="twitter" style="height: 25px; width: 25px;" /></a>
-              </div>
-              <div >
-                <a href="https://www.linkedin.com/in/eduprov-educational-institute-ab2b24115/" target="_blank"><img src="images/linkedin.png"  alt="linkedin" style="height: 25px; width: 25px;" /></a>
-              </div>
-              <div >
-                <a href="https://www.reddit.com/user/Eduprov1" target="_blank"><img src="images/reddit.png"  alt="reddit" style="height: 25px; width: 25px;" /></a>
-              </div>
-              <div >
-                <a href="https://in.pinterest.com/eduprov0" target="_blank"><img src="images/pinterest.png"  alt="pintrest" style="height: 25px; width: 25px;" /></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xl-4">
-            <img src="images/eduprov_education_banner.webp" class="eduprov_education_banner" style="height: 540px; width: 450px;" alt="home_page_banner" title="home_page_banner"/>
-          </div>
-        </div>
-      </div>
-    </section>
-      <!-- Header section end  -->
-     <!-- <div class="container mt-3">
-       <div class="row">
-         <div class="col-md-12 text-center">
-           <h2>Service Offered</h2>
-           <label>Admission Guidance, Career Counseling and Overseas Education.</label>
-         </div>
-       </div>
-       <div class="row mt-4">
-         <div class="col-md-6">
-           <div class="card home_card_border">
-             <div class="card-body">
-               <h3 class="card_heading">Admission Guidance</h3>
-               <label>Eduprov has developed to become one of the most active, innovative and well-respected organizations. </label><br/>
-               <label class="card_hyperlink">Learn More <i class="fas fa-arrow-circle-right icons mt-2"></i></label>
-             </div>
-           </div>
-         </div>
-         <div class="col-md-6">
-            <div class="card home_card_border">
-             <div class="card-body">
-                 <h3 class="card_heading">Career Counselling</h3>
-                 <label class="card_paragraph text-justify">Career guidance helps you to understand and fathom what job you want to get in future after you graduate. It is a life changing process .</label><br/>
-                  <label class="card_hyperlink">Learn More <i class="fas fa-arrow-circle-right icons"></i></label>
-             </div>
-           </div>
-         </div>
-       </div>
-       <div class="row">
-           <div class="col-md-6">
-           <div class="card home_card_border">
-             <div class="card-body">
-               <h3 class="card_heading">Overseas Education</h3>
-               <label>International education definitely has an enriched pattern of giving students comprehensive education where it gives courage speak out. </label><br/>
-               <label class="card_hyperlink">Learn More <i class="fas fa-arrow-circle-right icons mt-2"></i></label>
-             </div>
-           </div>
-         </div>
-         <div class="col-md-6">
-            <div class="card home_card_border">
-             <div class="card-body">
-                 <h3 class="card_heading">Frequently Asked Questions</h3>
-                 <label class="card_paragraph text-justify">Frequently Asked Questions By Students  .</label><br/>
-                  <label class="card_hyperlink">QnA <i class="fas fa-arrow-circle-right icons mt-4"></i></label>
-             </div>
-           </div>
-         </div>
-       </div> -->
-         <!-- Service's end -->
+ <section>
+        
+<div
+  id="carouselBasicExample"
+  class="carousel slide carousel-fade"
+  data-mdb-ride="carousel"
+>
 
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+
+
+  <div class="carousel-inner carousel-margin">
+
+    <div class="carousel-item active">
+         <div class="overlay-image " style="background-image: url(images/carousel/img3.webp);"></div>
+     <div class="carousel-caption text-start">
+            <h1>Admission Guidance</h1>
+            <p>We have developed to become one of the most active, innovative and well-respected organizations.</p>
+            <p><a class="btn btn-lg btn-primary" href="tel: +91 80 25591146">CALL US</a></p>
+          </div>
+    </div>
+
+  
+    <div class="carousel-item">
+         <div class="overlay-image" style="background-image: url(images/carousel/img1.webp);"></div>
+      <div class="carousel-caption text-start">
+            <h1>Study Abroad</h1>
+            <p>International education definitely has an enriched pattern of giving students comprehensive education</p>
+          </div>
+    </div>
+
+   
+    <div class="carousel-item">
+       <div class="overlay-image" style="background-image: url(images/carousel/img2.webp);"></div>
+     <div class="carousel-caption text-start">
+            <h1>Career Counselling</h1>
+            <p>Career guidance helps you to understand and fathom what job you want to get in future after you graduate.</p>
+          </div>
+    </div>
+  </div>
+
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="prev"
+  >
+    
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="next"
+  >
+  </button>
+</div>
+    </section>
+      <div class="icons">
+        <ul>
+          <a href="https://www.facebook.com/eduprovinstitute/"><li class="facebook"><i class="fab fa-facebook-square"></i></li></a>
+          <a href="https://twitter.com/eduprov"><li class="twitter"><i class="fab fa-twitter"></i></li></a>
+          <a href="https://www.youtube.com/channel/UCpQxHyt7KwUzpUhM6E_dyNw"><li class="youtube"><i class="fab fa-youtube"></i></li></a>
+          <a href="https://www.linkedin.com/in/eduprov-educational-institute-ab2b24115/"><li class="linkedin"><i class="fab fa-linkedin-square"></i></li></a>
+          <a href="https://www.instagram.com/eduprov_education/"><li class="instagram"><i class="fab fa-instagram"></i></li></a>
+          <a href="https://www.reddit.com/user/Eduprov1"><li class="reddit"><i class="fab fa-reddit"></i></li></a>
+          <a href="https://in.pinterest.com/eduprov0/"><li class="pintrest"><i class="fab fa-pinterest"></i></li></a>
+          <a href="https://eduprovblogger.blogspot.com/"><li class="blogger"><i class="fab fa-blogger"></i></li></a>
+          <a href="https://medium.com/@eduprov0"><li class="medium"><i class="fab fa-medium"></i></li></a>
+          <a href="https://eduprovarticles.wordpress.com/"><li class="wordpress"><i class="fab fa-wordpress"></i></li></a>
+          <a href="https://www.tumblr.com/blog/view/eduprov"><li class="tumbler"><i class="fab fa-tumblr-square"></i></li></a>
+        </ul>
+      </div>
+    
            <section class="section-services">
                 <div class="container">
                     <div class="row justify-content-center text-center">
@@ -509,8 +573,7 @@
                     </div>
                 </div>
             </section> 
-
-<div class="col-md-12 text-center mt-5">
+            <div class="col-md-12 text-center mt-5">
           <h3>Explore Courses</h3>
   </div>
         <!-- Tabs navs -->
@@ -667,43 +730,43 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bams.html">BAMS</a></label>
-          <p class="text-justify">BAMS is an integrated Indian medical undergraduate degree program </p>
+          <p class="text-justify course_paragraph">BAMS is an integrated Indian medical undergraduate degree program </p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bds-course.html">BDS</a></label>
-          <p class="text-justify">BDS is an undergraduate level degree program in the field of oral health care.</p>
+          <p class="text-justify course_paragraph">BDS is an undergraduate level degree program in the field of oral health care.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bhms-course.html">BHMS</a></label>
-          <p class="text-justify">BHMS Surgery is an excellent undergraduate degree in the medical field</p>
+          <p class="text-justify course_paragraph">BHMS Surgery is an excellent undergraduate degree in the medical field</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/mbbs-course.html">MBBS</a></label>
-          <p class="text-justify">MBBS is a very challenging but tremendously rewarding course</p>
+          <p class="text-justify course_paragraph">MBBS is a very challenging but tremendously rewarding course</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"> <a href="https://eduprov.com/bums-course.html">BUMS</a></label>
-          <p class="text-justify">Unani focuses on four different treatment therapies in its field: massage, Turkish bath</p>
+          <p class="text-justify course_paragraph">Unani focuses on four different treatment therapies in its field: massage, Turkish bath</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsms-course.html">BSMS</a></label>
-          <p class="text-justify">B.S.M.S is an excellent program for students who wish to pursue a career as a doctor</p>
+          <p class="text-justify course_paragraph">B.S.M.S is an excellent program for students who wish to pursue a career as a doctor</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bpt-course.html">BPT</a></label>
-          <p class="text-justify">BPT enables the candidates to study the treatment of muscle spasms, injuries</p>
+          <p class="text-justify course_paragraph">BPT enables the candidates to study the treatment of muscle spasms, injuries</p>
         </div>
       </div>
     </div>
@@ -712,31 +775,31 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/doctor-of-medicine-course.html">M.D</a></label>
-          <p class="text-justify">The program of M.D. is for 3 years in which a candidate gets to learn through practical classes and theory sessions.</p>
+          <p class="text-justify course_paragraph">The program of M.D. is for 3 years in which a candidate gets to learn through practical classes and theory sessions.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/d-pharama-course.html">Pharm.D</a></label>
-          <p class="text-justify">Doctor of Pharmacy or Pharm.D is a post-graduate program in the field of Medical.</p>
+          <p class="text-justify course_paragraph">Doctor of Pharmacy or Pharm.D is a post-graduate program in the field of Medical.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"> <a href="https://eduprov.com/mds-course.html">MDS</a></label>
-          <p class="text-justify">The course is aimed at creating dentists who are well trained and educated in diagnosis, treatment.</p>
+          <p class="text-justify course_paragraph">The course is aimed at creating dentists who are well trained and educated in diagnosis, treatment.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/md-unani-course.html">MD Unani</a></label>
-          <p class="text-justify">Master of Medicine in Unani is also known as the MD- Unani and MS Jarahat.</p>
+          <p class="text-justify course_paragraph">Master of Medicine in Unani is also known as the MD- Unani and MS Jarahat.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"> <a href="https://eduprov.com/md-anaesthesia-course.html">MD Anesthesia</a></label>
-          <p class="text-justify">An anaesthesiologist’s role is very important during the surgeries because of an allergic reaction. </p>
+          <p class="text-justify course_paragraph">An anaesthesiologist’s role is very important during the surgeries because of an allergic reaction. </p>
         </div>
       </div>
     </div>
@@ -749,7 +812,7 @@
       <div class="col d-flex align-items-start">
         <div>
          <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-in-engineering.html">Diploma in Engineering</a></label>
-          <p class="text-justify">Diploma in Engineering is  a three years long diploma in Engineering or industrial courses equips the students to learn the practical and theoretical knowledge </p>
+          <p class="text-justify  course_paragraph">Diploma in Engineering is  a three years long diploma in Engineering or industrial courses equips the students to learn the practical and theoretical knowledge </p>
         </div>
       </div>
     </div>
@@ -758,67 +821,67 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-aerospace.html">B.Tech Aerospace</a></label>
-          <p class="text-justify">B.Tech Aerospace Engineering is a 4-year undergraduate degree program </p>
+          <p class="text-justify course_paragraph">B.Tech Aerospace Engineering is a 4-year undergraduate degree program </p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-automobile.html">B.Tech Automobile</a></label>
-          <p class="text-justify">B.Tech Automobile engineering deals with the development of new concepts</p>
+          <p class="text-justify  course_paragraph">B.Tech Automobile engineering deals with the development of new concepts</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-construction.html">B.Tech Construction </a></label>
-          <p class="text-justify">B.Tech Construction is an undergraduate course in the field of construction</p>
+          <p class="text-justify  course_paragraph">B.Tech Construction is an undergraduate course in the field of construction</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-dairy-technology.html">B.Tech Dairy Technology</a></label>
-          <p class="text-justify">B.Tech Dairy Technology as the name suggest the course purely deals with milk processing</p>
+          <p class="text-justify  course_paragraph">B.Tech Dairy Technology as the name suggest the course purely deals with milk processing</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"> <a href="https://eduprov.com/btech-in-eee.html">B.Tech EEE</a></label>
-          <p class="text-justify">B.Tech EEE deals with the standardization in the technological and electrical aspects</p>
+          <p class="text-justify  course_paragraph">B.Tech EEE deals with the standardization in the technological and electrical aspects</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-ece.html">B.Tech ECE</a></label>
-          <p class="text-justify">B.Tech ECE as the name suggests is a combination of different technologies where one deals with electronic circuits</p>
+          <p class="text-justify  course_paragraph">B.Tech ECE as the name suggests is a combination of different technologies where one deals with electronic circuits</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-ete.html">B.Tech ETE</a></label>
-          <p class="text-justify">B.Tech ETE branch of engineering deals with signal and data communication systems</p>
+          <p class="text-justify  course_paragraph">B.Tech ETE branch of engineering deals with signal and data communication systems</p>
         </div>
       </div>
          <div class="col d-flex align-items-start">
         <div>
          <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-it-course.html">B.Tech IT</a></label>
-          <p class="text-justify">B.Tech Information Technology or IT is an undergraduate degree in the field of computer hardware and software.</p>
+          <p class="text-justify  course_paragraph">B.Tech Information Technology or IT is an undergraduate degree in the field of computer hardware and software.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-infrastructure.html">B.Tech Infrastructure</a></label>
-          <p class="text-justify">B.Tech Infrastructure Engineering deals with the concept of creating a better infrastructure of buildings, roads</p>
+          <p class="text-justify  course_paragraph">B.Tech Infrastructure Engineering deals with the concept of creating a better infrastructure of buildings, roads</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-instrumentation.html">B.Tech ICE</a></label>
-          <p class="text-justify">Instrumentation Control Engineering is the course that deals with handling heavy equipment.</p>
+          <p class="text-justify  course_paragraph">Instrumentation Control Engineering is the course that deals with handling heavy equipment.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-marine.html">B.Tech Marine</a></label>
-          <p class="text-justify">B.Tech Marine Engineering which expertise in designing, building and construction of machine equipment’s for sea crafts,</p>
+          <p class="text-justify  course_paragraph">B.Tech Marine Engineering which expertise in designing, building and construction of machine equipment’s for sea crafts,</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
@@ -830,7 +893,7 @@
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-motorsport.html">B.Tech Motorsport</a></label>
-          <p class="text-justify">B.Tech Motorsport is an undergraduate course for the duration of four years</p>
+          <p class="text-justify  course_paragraph">B.Tech Motorsport is an undergraduate course for the duration of four years</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
@@ -842,25 +905,25 @@
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-production.html">B.Tech Production</a></label>
-          <p class="text-justify">B.Tech production is an undergraduate course pursued in an engineering college for a duration of four years</p>
+          <p class="text-justify  course_paragraph">B.Tech production is an undergraduate course pursued in an engineering college for a duration of four years</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-safety-fire.html">B.Tech Fire & Safety</a></label>
-          <p class="text-justify">B.Tech Safety and Fire Engineering is a life-saving course in the field of engineering</p>
+          <p class="text-justify  course_paragraph">B.Tech Safety and Fire Engineering is a life-saving course in the field of engineering</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-sound-engineering.html">B.Tech Sound</a></label>
-          <p class="text-justify">B.Tech Sound Engineering is the field of engineering that deals with music, mixing and reproduction, recording, and manipulating</p>
+          <p class="text-justify  course_paragraph">B.Tech Sound Engineering is the field of engineering that deals with music, mixing and reproduction, recording, and manipulating</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-textile.html">B.Tech Textile</a></label>
-          <p class="text-justify">B.Tech Textile engineering has reached miles across the world, as the textile sector plays a very important role in the growth of Indian economy. </p>
+          <p class="text-justify  course_paragraph">B.Tech Textile engineering has reached miles across the world, as the textile sector plays a very important role in the growth of Indian economy. </p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
@@ -872,37 +935,37 @@
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-chemical.html">B.Tech Chemical</a></label>
-          <p class="text-justify">B.Tech Chemical engineering is usually chosen by students those who have an inclination towards chemistry and chemical components</p>
+          <p class="text-justify  course_paragraph">B.Tech Chemical engineering is usually chosen by students those who have an inclination towards chemistry and chemical components</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-genetic.html">B.Tech Genetic</a></label>
-          <p class="text-justify">B.Tech Genetic Engineering is the course which details with the modification of genes.</p>
+          <p class="text-justify  course_paragraph">B.Tech Genetic Engineering is the course which details with the modification of genes.</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-mechanical-engineering-admission.html">B.Tech Mechanical</a></label>
-          <p class="text-justify">B.Tech Mechanical Engineering is one amongst the most preferred courses in the engineering streamlet. </p>
+          <p class="text-justify  course_paragraph">B.Tech Mechanical Engineering is one amongst the most preferred courses in the engineering streamlet. </p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
          <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-metallurgical.html">B.Tech Metallurgical</a></label>
-          <p class="text-justify">B.Tech Metallurgy engineering covers a wide spectrum of subjects like Physical metallurgy</p>
+          <p class="text-justify  course_paragraph">B.Tech Metallurgy engineering covers a wide spectrum of subjects like Physical metallurgy</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
            <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-naval.html">B.Tech Naval</a></label>
-          <p class="text-justify">B.Tech Naval Engineering is a career-oriented program in the field of engineering where one learns about the shipbuilding design.</p>
+          <p class="text-justify  course_paragraph">B.Tech Naval Engineering is a career-oriented program in the field of engineering where one learns about the shipbuilding design.</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
          <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-power.html">B.Tech Power</a></label>
-          <p class="text-justify">B.Tech Power is an undergraduate course for the duration of four years which includes a semester of an internship as well</p>
+          <p class="text-justify  course_paragraph">B.Tech Power is an undergraduate course for the duration of four years which includes a semester of an internship as well</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
@@ -914,25 +977,25 @@
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-biotechnolgy.html">B.Tech Biotechnology</a></label>
-          <p class="text-justify">B.Tech Biotechnology Is a major field which involves applied biology and scientific principles</p>
+          <p class="text-justify  course_paragraph">B.Tech Biotechnology Is a major field which involves applied biology and scientific principles</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-biomedical.html">B.Tech Biomedical</a></label>
-          <p class="text-justify">B.Tech Biomedical Engineering is an important course in the engineering domain which deals with the study</p>
+          <p class="text-justify  course_paragraph">B.Tech Biomedical Engineering is an important course in the engineering domain which deals with the study</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-biochemical.html">B.Tech Biochemical</a></label>
-          <p class="text-justify">B.Tech in Biochemical engineering is majorly an interdisciplinary course combining biotechnology and chemical engineering</p>
+          <p class="text-justify  course_paragraph">B.Tech in Biochemical engineering is majorly an interdisciplinary course combining biotechnology and chemical engineering</p>
         </div>
       </div>
             <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/btech-in-civil.html">B.Tech Civil</a></label>
-          <p class="text-justify">B.Tech in Civil Engineering is one of the primaeval and vast field in the engineering streamlet</p>
+          <p class="text-justify  course_paragraph">B.Tech in Civil Engineering is one of the primaeval and vast field in the engineering streamlet</p>
         </div>
       </div>
     </div>
@@ -941,7 +1004,7 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/master-of-engineering.html">Master of Engineering</a></label>
-          <p class="text-justify">Master of Engineering is a postgraduate program in the fields of Engineering and technology</p>
+          <p class="text-justify  course_paragraph">Master of Engineering is a postgraduate program in the fields of Engineering and technology</p>
         </div>
       </div>
     </div>
@@ -954,55 +1017,55 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/facility-management-course.html">MBA Facility Management</a></label>
-          <p>FMP designation is a knowledge-based credential that will help to accelerate an FM’s</p>
+          <p class="text-justify  course_paragraph">FMP designation is a knowledge-based credential that will help to accelerate an FM’s</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/mba-banking-finance-course.html">MBA Banking and Finance</a></label>
-          <p>MBA in Finance and insurance is a postgraduate course that can be achieved by students of any stream</p>
+          <p class="text-justify  course_paragraph">MBA in Finance and insurance is a postgraduate course that can be achieved by students of any stream</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/export-management-course.html">MBA Export management</a></label>
-          <p>Export management majorly focuses on the garment industry. The course covers various areas in export management</p>
+          <p class="text-justify  course_paragraph">Export management majorly focuses on the garment industry. The course covers various areas in export management</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/finance-management.html">MBA Finance Management</a></label>
-          <p>Finance courses are offered at both under-graduate and post-graduate levels, but more prominently in the latter</p>
+          <p class="text-justify  course_paragraph">Finance courses are offered at both under-graduate and post-graduate levels, but more prominently in the latter</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"> <a href="https://eduprov.com/healthcare-management-course.html">MBA Healthcare Management</a></label>
-          <p>It is one of the fastest-growing fields. A career in health care management provides opportunities for those interested in an evolving career.</p>
+          <p class="text-justify  course_paragraph">It is one of the fastest-growing fields. A career in health care management provides opportunities for those interested in an evolving career.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/human-resource-course.html">MBA Human Resource Management</a></label>
-          <p>Human Resource graduates will focus on several processes such as recruitment, training, employee relations, etc </p>
+          <p class="text-justify  course_paragraph">Human Resource graduates will focus on several processes such as recruitment, training, employee relations, etc </p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/logistics-management-course.html">MBA Logistics Management</a></label>
-          <p>Logistics Management is important for every organization. As the business develops so do the scope of logistics management</p>
+          <p class="text-justify  course_paragraph">Logistics Management is important for every organization. As the business develops so do the scope of logistics management</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/organizational-studies.html">MBA Organizational Behavior</a></label>
-          <p>Management & Behavior is a graduate program, dedicated to the belief that students are best equipped for careers in management </p>
+          <p class="text-justify  course_paragraph">Management & Behavior is a graduate program, dedicated to the belief that students are best equipped for careers in management </p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/retail-management-course.html">MBA in Retail Management</a></label>
-          <p>MBA in Retail Management First of all you have to understand the meaning of Retail Management, Retail means the sale of goods, services.</p>
+          <p class="text-justify  course_paragraph">MBA in Retail Management First of all you have to understand the meaning of Retail Management, Retail means the sale of goods, services.</p>
         </div>
       </div>
     </div>
@@ -1015,7 +1078,7 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/llb-course.html">Bachelor of Legislative Law</a></label>
-          <p>Law is one of the most basic parts of the Indian constitution and law courses has taken an important step in ensuring that legal education is being covered.</p>
+          <p class="text-justify  course_paragraph">Law is one of the most basic parts of the Indian constitution and law courses has taken an important step in ensuring that legal education is being covered.</p>
         </div>
       </div>
     </div>
@@ -1024,7 +1087,7 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/master-of-law-course.html">Master of Law</a></label>
-          <p>Master of Law or LLM is a post graduate degree which is attained after completing a Bachelors Degree in LAW that is LLB.</p>
+          <p class="text-justify  course_paragraph">Master of Law or LLM is a post graduate degree which is attained after completing a Bachelors Degree in LAW that is LLB.</p>
         </div>
       </div>
     </div>
@@ -1037,37 +1100,37 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-in-mass-communication.html">Bachelor of Mass Communication</a></label>
-          <p>In the contemporary world, there are many courses that are offered at the undergraduate level, </p>
+          <p class="text-justify  course_paragraph">In the contemporary world, there are many courses that are offered at the undergraduate level, </p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-physical-education.html">Bachelor of Physical Education</a></label>
-          <p>Bachelor of Physical Education or B.P.Ed is a bachelor's degree program that deals with educating people on the importance of sports and physical fitness</p>
+          <p class="text-justify  course_paragraph">Bachelor of Physical Education or B.P.Ed is a bachelor's degree program that deals with educating people on the importance of sports and physical fitness</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-social-work.html">Bachelor of Social Work</a></label>
-          <p>Bachelor of Social Work (BSW) is a 3-year undergraduate degree in the field of Social Work. </p>
+          <p class="text-justify  course_paragraph">Bachelor of Social Work (BSW) is a 3-year undergraduate degree in the field of Social Work. </p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-archaelogy.html">Bachelor of Archaelogy</a></label>
-          <p>Do you like the thought of studying about historic events and items? If so, adegree in archaeology makes perfect sense. </p>
+          <p class="text-justify  course_paragraph">Do you like the thought of studying about historic events and items? If so, adegree in archaeology makes perfect sense. </p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-arts.html">Bachelor of Arts</a></label>
-          <p>Bachelor of Arts is a graduate programin which students learn about Liberal Arts or Science or both </p>
+          <p class="text-justify  course_paragraph">Bachelor of Arts is a graduate programin which students learn about Liberal Arts or Science or both </p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-dance.html">Bachelor of Dance</a></label>
-          <p>Bachelor of Arts in Dance is a three years long UG course </p>
+          <p class="text-justify  course_paragraph">Bachelor of Arts in Dance is a three years long UG course </p>
         </div>
       </div>
     </div>
@@ -1076,7 +1139,7 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/master-of-arts.html">Master of Arts</a></label>
-          <p>Master of Arts, commonly known as MA is a postgraduate degree program that can be pursued in a wide range of specializations. </p>
+          <p class="text-justify  course_paragraph">Master of Arts, commonly known as MA is a postgraduate degree program that can be pursued in a wide range of specializations. </p>
         </div>
       </div>
     </div>
@@ -1089,25 +1152,25 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-commerce-professional.html">Bachelor of Commerce Professional</a></label>
-          <p>Bachelor of Commerce Professionals is an undergraduate degree where one will gain knowledg +e in areas like accounting</p>
+          <p class="text-justify  course_paragraph">Bachelor of Commerce Professionals is an undergraduate degree where one will gain knowledg +e in areas like accounting</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-commerce-honours.html">Bachelor of Commerce Honors</a></label>
-          <p>Bachelor of Commerce Honors is regarded to be one of the most sought after stream following science is because it is all related to the study of economy</p>
+          <p class="text-justify  course_paragraph">Bachelor of Commerce Honors is regarded to be one of the most sought after stream following science is because it is all related to the study of economy</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-business-administration.html">Bachelor of Business Administration</a></label>
-          <p>Business administration is a challenging task. Every single decision is very important in a business which may lead to growth or loss.</p>
+          <p class="text-justify  course_paragraph">Business administration is a challenging task. Every single decision is very important in a business which may lead to growth or loss.</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-commerce.html">Bachelors Of Commerce</a></label>
-          <p>Bachelors Of Commerce (B.Com) is an important commerce stream that offers the students a career of their choice and preference </p>
+          <p class="text-justify  course_paragraph">Bachelors Of Commerce (B.Com) is an important commerce stream that offers the students a career of their choice and preference </p>
         </div>
       </div>
     </div>
@@ -1116,7 +1179,7 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/mcom-course.html">Master of Commerce</a></label>
-          <p>Master of Commerce commonly known as M. Com is a postgraduate program in Commerce</p>
+          <p class="text-justify  course_paragraph">Master of Commerce commonly known as M. Com is a postgraduate program in Commerce</p>
         </div>
       </div>
     </div>
@@ -1129,13 +1192,13 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bfd-course.html">Bachelor of Fashion Designing</a></label>
-          <p>In this trendy era, the world demands the most fashionable and snazzy dresses and outfits.</p>
+          <p class="text-justify  course_paragraph">In this trendy era, the world demands the most fashionable and snazzy dresses and outfits.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-designing-course.html">Bachelor of Designing</a></label>
-          <p>Bachelor of Designing is one of the most market-friendly courses that are always on demand Youngsters obviously like to keep up with the latest trends</p>
+          <p class="text-justify  course_paragraph">Bachelor of Designing is one of the most market-friendly courses that are always on demand Youngsters obviously like to keep up with the latest trends</p>
         </div>
       </div>
     </div>
@@ -1144,7 +1207,7 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/master-of-designing-course.html">Master of Designing</a></label>
-          <p>The esteemed National Institute of Design offers two and a half year or 5 semester Master of design courses in various disciplines.</p>
+          <p class="text-justify  course_paragraph">The esteemed National Institute of Design offers two and a half year or 5 semester Master of design courses in various disciplines.</p>
         </div>
       </div>
     </div>
@@ -1157,7 +1220,7 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bachelor-of-education-course.html">Bachelor of Education</a></label>
-          <p> Bachelor of Education is a bachelor's degree course at the undergraduate level. It is offered by a lot of colleges or universities all over the country.</p>
+          <p class="text-justify  course_paragraph"> Bachelor of Education is a bachelor's degree course at the undergraduate level. It is offered by a lot of colleges or universities all over the country.</p>
         </div>
       </div>
     </div>
@@ -1166,7 +1229,7 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/master-of-education-course.html">Master of Education</a></label>
-          <p>Master of Education or Master in Education is a professional postgraduate academic master’s degree course and is abbreviated as M.ED</p>
+          <p class="text-justify  course_paragraph">Master of Education or Master in Education is a professional postgraduate academic master’s degree course and is abbreviated as M.ED</p>
         </div>
       </div>
     </div>
@@ -1179,85 +1242,85 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-in-dvl.html">Diploma Dermatology, Venereology & Leprosy</a></label>
-          <p>Dermatology deals with the hair, scalp, skin, nails, and the diseases related to it. Venerology is the study and treatment of the diseases that are sexually transmitted. It is combined with dermatology. </p>
+          <p class="text-justify  course_paragraph">Dermatology deals with the hair, scalp, skin, nails, and the diseases related to it. Venerology is the study and treatment of the diseases that are sexually transmitted. It is combined with dermatology. </p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-anaesthesia-course.html">Diploma in Anaesthesia Technology</a></label>
-          <p>Diploma in Anaesthesia Technology is a course dealing with anaesthesiology that is the state of unconsciousness where surgeries and other medical procedures are performed</p>
+          <p class="text-justify  course_paragraph">Diploma in Anaesthesia Technology is a course dealing with anaesthesiology that is the state of unconsciousness where surgeries and other medical procedures are performed</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-in-dental-mechanics-course.html">Diploma in Dental Mechanics</a></label>
-          <p>Diploma in dental hygiene is a paramedical course that students can take up if they want to join the dental industry and hospitals.</p>
+          <p class="text-justify  course_paragraph">Diploma in dental hygiene is a paramedical course that students can take up if they want to join the dental industry and hospitals.</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/ddt-course.html">Diploma in Dialysis Technology</a></label>
-          <p>Diploma in dialysis technology covers subjects like human anatomy and physiology, applied microbiology in relation to dialysis technology</p>
+          <p class="text-justify  course_paragraph">Diploma in dialysis technology covers subjects like human anatomy and physiology, applied microbiology in relation to dialysis technology</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-in-health-inspector-course.html">Diploma in Health Inspector</a></label>
-          <p>Diploma in Health Inspector is a highly lucrative job and made for Students who wish to get a job right after College in the field of pharmacy, especially in the Government sectors </p>
+          <p class="text-justify  course_paragraph">Diploma in Health Inspector is a highly lucrative job and made for Students who wish to get a job right after College in the field of pharmacy, especially in the Government sectors </p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-in-hearing-course.html">Diploma in Hearing Language and Speech</a></label>
-          <p>Diploma in Hearing Language and Speech Pathology is a two years long course which is specially designed to train the students interested in the study of speech and hearing disorders</p>
+          <p class="text-justify  course_paragraph">Diploma in Hearing Language and Speech Pathology is a two years long course which is specially designed to train the students interested in the study of speech and hearing disorders</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-in-mrt-course.html">Diploma in Medical Records Technology</a></label>
-          <p>Diploma in Medical Records Technology is an amazing Course that students who wish to be in the Health Care and Medical Industry can take up</p>
+          <p class="text-justify  course_paragraph">Diploma in Medical Records Technology is an amazing Course that students who wish to be in the Health Care and Medical Industry can take up</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-in-nursing-course.html">Diploma in Nursing care Technology</a></label>
-          <p>Diploma in Nursing care technology is a three-year-long Diploma Program that covers Nursing Care, Technology, and Administration.</p>
+          <p class="text-justify  course_paragraph">Diploma in Nursing care technology is a three-year-long Diploma Program that covers Nursing Care, Technology, and Administration.</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/dott-course.html">Diploma in Operation Theatre Technology</a></label>
-          <p>Diploma in Operation Theatre Technology is a wonderful course that students who wish to be in the Health Care Services and Medical Industry</p>
+          <p class="text-justify  course_paragraph">Diploma in Operation Theatre Technology is a wonderful course that students who wish to be in the Health Care Services and Medical Industry</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-in-ophthalmic-course.html">Diploma in Ophthalmic Technology</a></label>
-          <p>Diploma in ophthalmic technology is a diploma course that is usually a three years long degree for students who have just finished their 10th standard.</p>
+          <p class="text-justify  course_paragraph">Diploma in ophthalmic technology is a diploma course that is usually a three years long degree for students who have just finished their 10th standard.</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-in-x-ray-course.html">Diploma in X-Ray Technology</a></label>
-          <p>Radiology Technician or Radiology assistant is a paramedic technician who helps the patients and doctors in understanding and interpreting science of image production using MRI, CT Scans</p>
+          <p class="text-justify  course_paragraph">Radiology Technician or Radiology assistant is a paramedic technician who helps the patients and doctors in understanding and interpreting science of image production using MRI, CT Scans</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-ecg-technology-course.html">Diploma in ECG Technology</a></label>
-          <p>Diploma in ECG Technology is a unique paramedical diploma course that provides the students with a solid backbone in the medical and health care industry.</p>
+          <p class="text-justify  course_paragraph">Diploma in ECG Technology is a unique paramedical diploma course that provides the students with a solid backbone in the medical and health care industry.</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/gnm-course.html">General Nursing & Midwifery</a></label>
-          <p>General Nursing & Midwifery is one of the most renowned courses in the field of Medicine. It is a diploma course where one study about general health care and treating situational conditions.</p>
+          <p class="text-justify  course_paragraph">General Nursing & Midwifery is one of the most renowned courses in the field of Medicine. It is a diploma course where one study about general health care and treating situational conditions.</p>
         </div>
       </div>
         <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/diploma-sanitary-inspector-course.html">Diploma Sanitary inspector</a></label>
-          <p>Diploma Sanitary inspector course is also known as S.I course. The main objective of this course is to obtain technicalities that supplemented by both practical and theoretic knowledge </p>
+          <p class="text-justify  course_paragraph">Diploma Sanitary inspector course is also known as S.I course. The main objective of this course is to obtain technicalities that supplemented by both practical and theoretic knowledge </p>
         </div>
       </div>
     </div>
@@ -1266,91 +1329,91 @@
       <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsc-nuro-course.html">B.Sc NeuroScience</a></label>
-          <p>Bachelor of Science in neurosciences technology is a six-semester or three yearsnlong undergraduate course aimed to target students interested in medical sciences and biology.</p>
+          <p class="text-justify  course_paragraph">Bachelor of Science in neurosciences technology is a six-semester or three yearsnlong undergraduate course aimed to target students interested in medical sciences and biology.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsc-cardiac-care-technology-course.html">B.Sc Cardiac Care Technology</a></label>
-          <p>Bachelor of Science in cardiac care technology is a three years long allied health sciences undergraduate degree that enables the student to work in the field of health care </p>
+          <p class="text-justify  course_paragraph">Bachelor of Science in cardiac care technology is a three years long allied health sciences undergraduate degree that enables the student to work in the field of health care </p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsc-nautical-science-course.html">B.Sc Nautical Science</a></label>
-          <p>B.Sc Nautical Science is a three-year undergraduate course that will lead you to work near the sea and also provides an opportunity to serve the nation when you join in the navy. </p>
+          <p class="text-justify  course_paragraph">B.Sc Nautical Science is a three-year undergraduate course that will lead you to work near the sea and also provides an opportunity to serve the nation when you join in the navy. </p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsc-pathology-course.html">Bachelor of Pathology</a></label>
-          <p>Bachelor of Pathology course is an undergraduate program, in which you to understand disease from a tissue, cellular, molecular, biological, immunological, and functional perspective.</p>
+          <p class="text-justify  course_paragraph">Bachelor of Pathology course is an undergraduate program, in which you to understand disease from a tissue, cellular, molecular, biological, immunological, and functional perspective.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/medical-records-science-course.html">Bachelor of Medical Records Science</a></label>
-          <p>Bachelor of medical record science is a three-year bachelor’s program that deals with various aspects of record maintenance and storage along with mass data handling regarding a variety of drugs, diseases, and organisms</p>
+          <p class="text-justify  course_paragraph">Bachelor of medical record science is a three-year bachelor’s program that deals with various aspects of record maintenance and storage along with mass data handling regarding a variety of drugs, diseases, and organisms</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsc-accident-emergency-care-techno-course.html">B.Sc in Accident And Emergency Care Technology</a></label>
-          <p>B.Sc in accident and emergency care technology is a course that trains interested students in the emergency and trauma care to have both intellectual knowledge and practical skills relevant to medical care in the field of emergency medicine.</p>
+          <p class="text-justify  course_paragraph">B.Sc in accident and emergency care technology is a course that trains interested students in the emergency and trauma care to have both intellectual knowledge and practical skills relevant to medical care in the field of emergency medicine.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsc-forensic-science-course.html">B.Sc Forensic Science</a></label>
-          <p>B.Sc Forensic Science profession is a crime and laboratory-based profession. But this profession is also used in civil cases</p>
+          <p class="text-justify  course_paragraph">B.Sc Forensic Science profession is a crime and laboratory-based profession. But this profession is also used in civil cases</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bmlt.html">Bachelor of Medical Laboratory Technology</a></label>
-          <p>Our body is a great composition of a variety of things. We always have an essential requirement of components like the proteins, carbohydrates, vitamins</p>
+          <p class="text-justify  course_paragraph">Our body is a great composition of a variety of things. We always have an essential requirement of components like the proteins, carbohydrates, vitamins</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsc-ot-course.html">B.Sc Operation Theatre Technology</a></label>
-          <p>B.Sc in operation theatre technology is a three years long allied health sciences undergraduate degree that enables the student to work in the field of health care as an operation theatre technician.</p>
+          <p class="text-justify  course_paragraph">B.Sc in operation theatre technology is a three years long allied health sciences undergraduate degree that enables the student to work in the field of health care as an operation theatre technician.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsc-renal-dialysis-course.html">B.Sc in Renal Dialysis Technology</a></label>
-          <p>B.Sc in renal dialysis technology is an undergraduate allied health science course that is in high demand in recent times especially with the rise in need of medical technology</p>
+          <p class="text-justify  course_paragraph">B.Sc in renal dialysis technology is an undergraduate allied health science course that is in high demand in recent times especially with the rise in need of medical technology</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bmr-course.html">Bachelor of Mental Retardation</a></label>
-          <p>Bachelor of Mental Retardation is a condition where the exact root cause is almost unknown. A person can lead to mental retardation due to their health issues, any genetic disorders.</p>
+          <p class="text-justify  course_paragraph">Bachelor of Mental Retardation is a condition where the exact root cause is almost unknown. A person can lead to mental retardation due to their health issues, any genetic disorders.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bnys-course.html">Bachelor Of Naturopathy & Yogic Science</a></label>
-          <p>Bachelor of Naturopathy and Yogic Sciences is the academic course which can provide the skills to person. A Person can be well equipped and skilled to concentrate on the symptoms of the patient.</p>
+          <p class="text-justify  course_paragraph">Bachelor of Naturopathy and Yogic Sciences is the academic course which can provide the skills to person. A Person can be well equipped and skilled to concentrate on the symptoms of the patient.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/boptm-course.html">Bachelor of Optometry</a></label>
-          <p>Bachelor of Optometry and Vision Science deals with the study of the health issues related to vision. Here you study the function and structure of the visual system</p>
+          <p class="text-justify  course_paragraph">Bachelor of Optometry and Vision Science deals with the study of the health issues related to vision. Here you study the function and structure of the visual system</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/b-pharm-course.html">Bachelor of Pharmacy</a></label>
-          <p>Bachelor of Pharmacy is a four-year undergraduate program in which students study the methods and process of preparing drugs and how does the dispensing of medicine and drugs take place.</p>
+          <p class="text-justify  course_paragraph">Bachelor of Pharmacy is a four-year undergraduate program in which students study the methods and process of preparing drugs and how does the dispensing of medicine and drugs take place.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
         <div>
           <label class="fw-bold mb-0"><a href="https://eduprov.com/bsc-nursing-course.html">Bachelor of Nursing</a></label>
-          <p>Bachelor of Nursing is an undergraduate course. The main aim of the course is to show the ability in knowledge and skill in giving complete nursing care based problems with solving approaches in the hospital and community.</p>
+          <p class="text-justify  course_paragraph">Bachelor of Nursing is an undergraduate course. The main aim of the course is to show the ability in knowledge and skill in giving complete nursing care based problems with solving approaches in the hospital and community.</p>
         </div>
       </div>
        <div class="col d-flex align-items-start">
@@ -1557,11 +1620,13 @@
   </div>
   </div>
 </div>
-              </div>
-          </div>
-      </div>
-   
-<div class="col-md-12 text-center mt-2">
+  </div>
+ </div>
+</div>
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+             <div class="col-md-12 text-center mt-2">
           <h4>Overseas Education</h4>
         </div>
         <div class="row text-center mt-4">
@@ -1614,8 +1679,53 @@
           </a>
         </div>
      </div>
+         </div>
+       </div>
+     </div>
+   
+     <section>
+       <div class="container">
+         <div class="row">
+           <div class="col-md-12 text-center mt-5">
+              <h4 >Testimonial's</h4>
+              <label>Our student's love us! Read what they have to say below.</label>
+           </div>
+            <div class="slider">
+  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+  <div class="slider__inner">
+     
+    <div class="slider__contents">
+      <label class="slider__caption fw-bold">Anshuman bs </label>
+      <p class="slider__txt">It was a very eye opening experience and gained a lot of prospective from this session in feel like a lot of weight has been lifted off my shoulders and have gotten into a better head space to make my decision</p>
+    </div>
+    <div class="slider__contents">
+      <label class="slider__caption fw-bold">Anonymous</label>
+      <p class="slider__txt">The counseling was totally great more about information gained totally great nice and really motirated to right path </p>
+    </div>
+    <div class="slider__contents">
+      <label class="slider__caption fw-bold">Ronak</label>
+      <p class="slider__txt">Counseling was great everyone reels to write all types of entrance exams and all but here I got to know that even if u don't write or don't do well it's fine we can still get a best collage for a particular course this will certainly help me in future as well </p>
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+      <label class="slider__caption fw-bold">Anonymous</label>
+      <p class="slider__txt">I feel very good after talking to uzma mam bcoz all that was jammed in my head due to this covid is now all sorted and I got to know many more things what I should do or take up in the future and what not to It was good talking to her </p>
+    </div>
+  </div>
+</div>
+         </div>
+       </div>
+     </section>
 
-       <section class="section-services mt-5">
+<script>
+  
+</script>
+
+
+   
+     <!-- <section class="section-services mt-5">
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-md-10 col-lg-8">
@@ -1874,7 +1984,7 @@
         </div>
     </div>
     </div>
-  </section>
+</section> -->
 
     <footer class="page-footer font-small bg-dark pt-4 mt-4">
 
@@ -2011,9 +2121,8 @@
   
   </footer>
   <!-- Footer -->
+
+       <script src="test.js"></script>
    
-    <!-- header end -->
-    <script src="test.js"></script>
-    <script src="suggestion.js"></script>
   </body>
 </html>
