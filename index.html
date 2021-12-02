@@ -82,7 +82,7 @@
       <style>
           .carousel-item{
               height: 37rem;
-              background: black;
+              /* background: black; */
               color: white;
               position: relative;
              
@@ -95,15 +95,15 @@
               top: 0;
               background-position: center;
               background-size: cover;
-              opacity: 0.5;
+              /* opacity: 0.5; */
 
           }
           .carousel-margin{
-              margin-top: -125px;
+              margin-top: -120px;
           }
           @media (max-width: 991px) {
               .carousel-margin{
-              margin-top: -75px;
+              margin-top: -83px;
           }
           }
           
@@ -121,7 +121,9 @@ nav{
 }
 
 nav .small_menu{
-    display: flex;
+     display: flex;
+     justify-content: right;
+    
 }
 nav .small_menu li a{
     height:40px;
@@ -136,7 +138,7 @@ nav .small_menu li a{
     letter-spacing: 1px;
 }
 nav .small_menu li a:hover{
-    background-color: #242424;
+    background-color: #2c59a3;
     color:#ffffff;
     box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
     transition: all ease 0.2s;
@@ -439,29 +441,29 @@ nav .small_menu li a:hover{
   <div class="carousel-inner carousel-margin">
 
     <div class="carousel-item active">
-         <div class="overlay-image " style="background-image: url(images/carousel/img3.webp);"></div>
+         <div class="overlay-image carousel_image_one"></div>
      <div class="carousel-caption text-start">
-            <h1>Admission Guidance</h1>
-            <p>We have developed to become one of the most active, innovative and well-respected organizations.</p>
-            <p><a class="btn btn-lg btn-primary" href="tel: +91 80 25591146">CALL US</a></p>
+            <!-- <h1>Admission Guidance</h1>
+            <p>We have developed to become one of the most active, innovative and well-respected organizations.</p> -->
+            <!-- <p><a class="btn btn-lg btn-primary" href="tel: +91 80 25591146">CALL US</a></p> -->
           </div>
     </div>
 
   
     <div class="carousel-item">
-         <div class="overlay-image" style="background-image: url(images/carousel/img1.webp);"></div>
+         <div class="overlay-image carousel_image_two"></div>
       <div class="carousel-caption text-start">
-            <h1>Study Abroad</h1>
-            <p>International education definitely has an enriched pattern of giving students comprehensive education</p>
+            <!-- <h1>Study Abroad</h1>
+            <p>International education definitely has an enriched pattern of giving students comprehensive education</p> -->
           </div>
     </div>
 
    
     <div class="carousel-item">
-       <div class="overlay-image" style="background-image: url(images/carousel/img2.webp);"></div>
+       <div class="overlay-image carousel_image_three"></div>
      <div class="carousel-caption text-start">
-            <h1>Career Counselling</h1>
-            <p>Career guidance helps you to understand and fathom what job you want to get in future after you graduate.</p>
+            <!-- <h1>Career Counselling</h1>
+            <p>Career guidance helps you to understand and fathom what job you want to get in future after you graduate.</p> -->
           </div>
     </div>
   </div>
@@ -498,6 +500,45 @@ nav .small_menu li a:hover{
           <a href="https://www.tumblr.com/blog/view/eduprov"><li class="tumbler"><i class="fab fa-tumblr-square"></i></li></a>
         </ul>
       </div>
+        <!-- Whatsapp api  -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <a href="https://api.whatsapp.com/send?phone=+91-9538801147&text=Hi." class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
+       
+       <!-- Heading Section  -->
+       <section class="section-services heading_bg">
+                <div class="container">
+                     <div class="row">
+                        <div class="col-lg-8">
+                            <div class="header-section" style="margin-top: -40px;">
+                                <h1 class="fw-bold homepage_heading">Best Admission Guidance In Bangalore</h1>
+                                <p class="description">Admission Guidance, Career Counseling and Study Abroad</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 homepage_btn">
+                               <button class="home_page_callbtn">Call us</button>
+                               <button class="home_page_applynow">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+                 <!-- <div class="container">
+                   <div class="row">
+                     <div class="col-md-12">
+                         <p class="text-justify home_main_content">
+                                 <b>Admission Guidance in Bangalore Eduprov</b> is an esteemed name in <b>Career Counselling, Overseas Education & Admission Guidance</b> institute located in the heart of Bengaluru. EDUPROV works to promote excellence in education and with our unique ability, our successful track record and continued growth, EDUPROV has developed to become one of the most active, innovative and well-respected organizations in the field admission guidance, overseas education and career counselling
+                                </p>
+                                <label class="fw-bold">Philosophy</label>
+                                <p  class="text-justify">
+                                  It is our belief at EDUPROV that career guidance, admission consulting and overseas education can be a standout amongst the most energizing and testing fields at any organization of advanced education. To be effective in creating content important for the students, workforce, and staff, one is required to have three in number qualities: technological dominance, solid communication capacity, and development expertise inside of learning situations.
+                                </p>
+                                <p class="text-justify">
+                                   We grasp these standards when settling on the day by day choices and growing long haul objectives in education for administration, personnel, staff, and understudies. Execution of these objectives will safeguard accomplishment of goals for today, tomorrow, and always.
+                                </p>
+                     </div>
+                   </div>
+                 </div> -->
+            </section> 
     
            <section class="section-services">
                 <div class="container">
@@ -505,7 +546,6 @@ nav .small_menu li a:hover{
                         <div class="col-md-10 col-lg-8">
                             <div class="header-section">
                                 <h2 class="title">Service Offered</h2>
-                                <p class="description">Admission Guidance, Career Counseling and Study Abroad</p>
                             </div>
                         </div>
                     </div>
@@ -1683,7 +1723,85 @@ nav .small_menu li a:hover{
        </div>
      </div>
    
-     <section>
+      <section class="testimonial text-center mt-5">
+        <div class="container">
+
+            <div class="heading white-heading">
+                Testimonial
+            </div>
+            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+             
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="testimonial4_slide">
+                            <p>It was a very eye opening experience and gained a lot of prospective from this session in feel like a lot of weight has been lifted off my shoulders and have gotten into a better head space to make my decision</p>
+                             <label class="fw-bold" >Anshuman bs </label>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                          <p >The counseling was totally great more about information gained totally great nice and really motirated to right path </p>
+                          <label class="fw-bold">Anonymous</label>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                           <label class="fw-bold">Ronak</label>
+                           <p>Counseling was great everyone reels to write all types of entrance exams and all but here I got to know that even if u don't write or don't do well it's fine we can still get a best collage for a particular course this will certainly help me in future as well </p>
+                        </div>
+                    </div>
+                     <div class="carousel-item">
+                        <div class="testimonial4_slide">
+
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                          
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                          
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                          
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                          
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                          
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                          
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                          
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section>
        <div class="container">
          <div class="row">
            <div class="col-md-12 text-center mt-5">
@@ -1698,31 +1816,56 @@ nav .small_menu li a:hover{
   <div class="slider__inner">
      
     <div class="slider__contents">
-      <label class="slider__caption fw-bold">Anshuman bs </label>
-      <p class="slider__txt">It was a very eye opening experience and gained a lot of prospective from this session in feel like a lot of weight has been lifted off my shoulders and have gotten into a better head space to make my decision</p>
+      
     </div>
     <div class="slider__contents">
-      <label class="slider__caption fw-bold">Anonymous</label>
-      <p class="slider__txt">The counseling was totally great more about information gained totally great nice and really motirated to right path </p>
+     
     </div>
     <div class="slider__contents">
-      <label class="slider__caption fw-bold">Ronak</label>
-      <p class="slider__txt">Counseling was great everyone reels to write all types of entrance exams and all but here I got to know that even if u don't write or don't do well it's fine we can still get a best collage for a particular course this will certainly help me in future as well </p>
+      
     </div>
-    <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+    <div class="slider__contents">
       <label class="slider__caption fw-bold">Anonymous</label>
       <p class="slider__txt">I feel very good after talking to uzma mam bcoz all that was jammed in my head due to this covid is now all sorted and I got to know many more things what I should do or take up in the future and what not to It was good talking to her </p>
     </div>
+     <div class="slider__contents">
+      <label class="slider__caption fw-bold">Anonymous</label>
+      <p class="slider__txt">Got an idea about different courses after 12th it was a good information session got good guidance about different skills thankyou eduprov</p>
+    </div>
+
   </div>
 </div>
          </div>
        </div>
-     </section>
+     </section> -->
 
-<script>
-  
-</script>
 
+ 
+<!--      
+     <div class="slider__contents">
+      <label class="slider__caption fw-bold">Masiha Kousar </label>
+      <p class="slider__txt">Before coming to this career counseling I was totally blocked that what can I do in future.but today when I came here really speaking they boosted my mind that what can I do in future.it is very supportive for me I came to know the meaning of life I have decided that what to do in future Thank You</p>
+    </div>
+     <div class="slider__contents">
+      <label class="slider__caption fw-bold">Thomas Antony S</label>
+      <p class="slider__txt">Happy that I found people who guided to the right path I was filled with information that I never knew before I feel really lucky that I had a chance to talk </p>
+    </div>
+     <div class="slider__contents">
+      <label class="slider__caption fw-bold">Sampath Pime </label>
+      <p class="slider__txt">thank you ahmed sir and eduprov for choosing me to course where my total mind is strong for my future life I am interested in computer science future ii ll be here for admission Thank You</p>
+    </div>
+     <div class="slider__contents">
+      <label class="slider__caption fw-bold">Anonymous</label>
+      <p class="slider__txt">Uzma mam your great analysis of your ideas and your ways of clearing things helped allot thankyou.so much for having I'm here and your explanation was too clear and helpfull hoping to have a talk to you again </p>
+    </div>
+     <div class="slider__contents">
+      <label class="slider__caption fw-bold">Nishitha Reddy </label>
+      <p class="slider__txt">It was quite helpful it was reassuring it was a fun and knowledgeable one Anjum</p>
+    </div>
+     <div class="slider__contents">
+      <label class="slider__caption fw-bold">Gourav</label>
+      <p class="slider__txt">The session helped me alot I joined a lot of useful information I would like to recommend students or people who are deveated, confused with there Carrer or life.ahmed khan sir very understanding and supporting person I am really thankful to eduprov for contacting me </p>
+    </div> -->
 
    
      <!-- <section class="section-services mt-5">
@@ -1986,7 +2129,7 @@ nav .small_menu li a:hover{
     </div>
 </section> -->
 
-    <footer class="page-footer font-small bg-dark pt-4 mt-4">
+    <footer class="page-footer font-small bg-dark pt-1 ">
 
     <!-- Footer Links -->
     <div class="container  text-md-left">

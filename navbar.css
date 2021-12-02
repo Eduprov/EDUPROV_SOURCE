@@ -489,3 +489,11 @@ a {
   color: #4e8df2;
 }
 
+@media screen and (max-width:992px){
+ .application_button{
+   position: relative; 
+   bottom: 20px; 
+   left: 40% !important;
+ }
+}
+
