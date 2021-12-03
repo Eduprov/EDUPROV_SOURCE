@@ -184,7 +184,7 @@
                    <div class="col-md-6">
                      <img src="images/placeholder.png" class="location-icon"  height="35">
                      <h6 class="mt-3">
-                       No 20 2nd Floor Lady Curzon Rd Santha Complex, Lady Curzon Rd, Infantry Rd, Bengaluru Karnataka 560001
+                       No 20 3rd Floor Lady Curzon Rd Santha Complex, Lady Curzon Rd, Infantry Rd, Bengaluru Karnataka 560001
                      </h6>
                    </div>
                    <div class="col-md-6">
