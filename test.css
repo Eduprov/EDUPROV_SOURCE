@@ -1302,10 +1302,15 @@ a {
 .homepage_btn{
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
  .icons{
     display: none;
  }
+ .homepage_heading{
+  font-size: 34px;
+  color: #00275B;
+}
 }
 
 .float{
