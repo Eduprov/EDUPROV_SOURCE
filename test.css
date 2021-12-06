@@ -1311,6 +1311,8 @@ a {
   font-size: 34px;
   color: #00275B;
 }
+
+
 }
 
 .float{
@@ -1401,7 +1403,7 @@ a {
 }
 
 .testimonial {
-    height: 560px;
+    height: 600px;
     position: relative;
     background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
     padding-top: 50px;
@@ -1587,10 +1589,7 @@ a {
      footer {
             color: grey;
      }
-     footer p, a {
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
-}
+
 footer h6 {
     font-family: 'Playfair Display', serif;
     margin-bottom: 40px;
@@ -1659,12 +1658,14 @@ footer ul  li a{
   color: grey;
   text-decoration:none;
 }
-a:hover {
-    text-decoration: none;
-    color: #f5f5f5 !important;
-    
-}
+
 .logo-part {
     border-right: 1px solid grey;
     height: 100%;
     }
+.testimonial_height{
+  height: 30rem !important;
+}
+.btn-footer:hover{
+  color: #fff;
+}
