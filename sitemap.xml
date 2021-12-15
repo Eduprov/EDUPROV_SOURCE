@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://eduprov.com/</loc>
-  <lastmod>2021-12-03T08:31:26+00:00</lastmod>
+  <lastmod>2021-12-07T08:32:25+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -21,7 +21,7 @@
 </url>
 <url>
   <loc>https://eduprov.com/application-form.php</loc>
-  <lastmod>2021-12-03T08:36:06+00:00</lastmod>
+  <lastmod>2021-12-15T08:20:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -71,62 +71,62 @@
 </url>
 <url>
   <loc>https://eduprov.com/md-unani-course.html</loc>
-  <lastmod>2021-09-01T09:12:00+00:00</lastmod>
+  <lastmod>2021-12-06T08:33:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/md-anaesthesia-course.html</loc>
-  <lastmod>2021-09-01T09:12:00+00:00</lastmod>
+  <lastmod>2021-12-06T08:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-in-engineering.html</loc>
-  <lastmod>2021-09-01T09:11:48+00:00</lastmod>
+  <lastmod>2021-12-10T04:43:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-aerospace.html</loc>
-  <lastmod>2021-12-02T05:16:31+00:00</lastmod>
+  <lastmod>2021-12-10T04:43:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-automobile.html</loc>
-  <lastmod>2021-10-05T10:46:26+00:00</lastmod>
+  <lastmod>2021-12-10T04:43:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-construction.html</loc>
-  <lastmod>2021-09-01T09:11:36+00:00</lastmod>
+  <lastmod>2021-12-13T11:17:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-dairy-technology.html</loc>
-  <lastmod>2021-12-02T05:17:07+00:00</lastmod>
+  <lastmod>2021-12-10T04:43:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-eee.html</loc>
-  <lastmod>2021-10-21T12:30:17+00:00</lastmod>
+  <lastmod>2021-12-10T04:43:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-ece.html</loc>
-  <lastmod>2021-09-01T09:11:37+00:00</lastmod>
+  <lastmod>2021-12-10T04:43:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-ete.html</loc>
-  <lastmod>2021-09-01T09:11:38+00:00</lastmod>
+  <lastmod>2021-12-06T08:31:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-it-course.html</loc>
-  <lastmod>2021-09-01T09:11:39+00:00</lastmod>
+  <lastmod>2021-12-13T11:17:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-infrastructure.html</loc>
-  <lastmod>2021-09-01T09:11:42+00:00</lastmod>
+  <lastmod>2021-12-06T08:31:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -136,12 +136,12 @@
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-marine.html</loc>
-  <lastmod>2021-10-05T10:44:05+00:00</lastmod>
+  <lastmod>2021-12-13T11:18:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-mining.html</loc>
-  <lastmod>2021-11-03T12:54:20+00:00</lastmod>
+  <lastmod>2021-12-13T12:18:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -151,42 +151,42 @@
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-petroleum.html</loc>
-  <lastmod>2021-10-05T10:44:24+00:00</lastmod>
+  <lastmod>2021-12-13T12:18:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-production.html</loc>
-  <lastmod>2021-09-01T09:11:41+00:00</lastmod>
+  <lastmod>2021-12-13T12:18:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-safety-fire.html</loc>
-  <lastmod>2021-12-02T05:16:21+00:00</lastmod>
+  <lastmod>2021-12-13T12:19:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-sound-engineering.html</loc>
-  <lastmod>2021-09-01T09:11:41+00:00</lastmod>
+  <lastmod>2021-12-13T12:19:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-textile.html</loc>
-  <lastmod>2021-11-03T12:54:12+00:00</lastmod>
+  <lastmod>2021-12-15T08:19:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-aeronautical-engineering-admission.html</loc>
-  <lastmod>2021-11-26T06:55:26+00:00</lastmod>
+  <lastmod>2021-12-15T08:18:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-chemical.html</loc>
-  <lastmod>2021-10-05T10:43:59+00:00</lastmod>
+  <lastmod>2021-12-15T08:19:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-in-genetic.html</loc>
-  <lastmod>2021-10-29T13:08:38+00:00</lastmod>
+  <lastmod>2021-12-15T08:19:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -676,62 +676,32 @@
 </url>
 <url>
   <loc>https://eduprov.com/explore-countries.html</loc>
-  <lastmod>2021-11-25T11:12:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/kcet-exam-information.html</loc>
-  <lastmod>2021-10-29T13:07:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/jee-exam-blog.html</loc>
-  <lastmod>2021-09-01T09:11:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/neet-exam.html</loc>
-  <lastmod>2021-07-09T11:11:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/mba-course-blogs.html</loc>
-  <lastmod>2021-09-01T09:11:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/medical-course-blogs.html</loc>
-  <lastmod>2021-09-01T09:12:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/engineering-course-blogs.html</loc>
-  <lastmod>2021-10-11T12:12:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/law-course-blogs.html</loc>
-  <lastmod>2021-09-01T09:11:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/designing-course-blogs.html</loc>
-  <lastmod>2021-09-01T09:11:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/arts-course-blogs.html</loc>
-  <lastmod>2021-09-01T09:11:26+00:00</lastmod>
+  <lastmod>2021-12-06T08:32:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/contact-form.php</loc>
-  <lastmod>2021-12-03T08:36:06+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2021-12-15T08:20:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/sitemap.html</loc>
+  <lastmod>2021-12-03T08:47:53+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/btech-computer-science-engineering.html</loc>
   <lastmod>2021-09-01T09:11:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/kcet-exam-information.html</loc>
+  <lastmod>2021-10-29T13:07:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/jee-exam-blog.html</loc>
+  <lastmod>2021-09-01T09:11:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -790,14 +760,24 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://eduprov.com/study-in-usa.html</loc>
+  <lastmod>2021-12-06T08:33:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/engineering-course-blogs.html</loc>
+  <lastmod>2021-10-11T12:12:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>https://eduprov.com/science-course-blogs.html</loc>
   <lastmod>2021-09-20T06:53:07+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bams-course.html</loc>
   <lastmod>2021-10-29T13:07:09+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.51</priority>
 </url>
 
 
