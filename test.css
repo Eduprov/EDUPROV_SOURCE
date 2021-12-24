@@ -1669,3 +1669,7 @@ footer ul  li a{
 .btn-footer:hover{
   color: #fff;
 }
+
+.grid_content_heading{
+  font-size: 20px;
+}
