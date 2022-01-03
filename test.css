@@ -1564,6 +1564,39 @@ footer ul  li a{
      justify-content: space-around;
      font-size: 24px;
    }
+   .facebook-mobile{
+     color: #3b5998;
+   }
+   .twitter-mobile{
+     color: #55acee;
+   }
+   .youtube-mobile{
+      color:#ff0000 ;
+   }
+   .linkedin-mobile{
+      color: #007bb5;
+   }
+   .instagram-mobile{
+      color:#833AB4 ;
+   }
+   .reddit-mobile{
+      color:#FF4500 ;
+   }
+   .pintrest-mobile{
+      color: #E60023;
+   }
+   .blogger-mobile{
+      color: #fc4f08;
+   }
+   .medium-mobile{
+      color: #66cdaa;
+   }
+   .wordpress-mobile{
+      color: #00749C ;
+   }
+   .tumbler-mobile{
+      color: #34526f;
+   }
 
 }
 
