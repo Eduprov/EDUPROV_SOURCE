@@ -9,22 +9,17 @@
 
 <url>
   <loc>https://eduprov.com/</loc>
-  <lastmod>2021-12-29T07:24:32+00:00</lastmod>
+  <lastmod>2022-01-03T08:00:08+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://eduprov.com/admission-guidance.html</loc>
-  <lastmod>2021-12-28T08:03:10+00:00</lastmod>
+  <lastmod>2021-12-29T07:43:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/career-counseling.html</loc>
   <lastmod>2021-09-01T09:11:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/application-form.php</loc>
-  <lastmod>2021-12-29T07:27:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -100,6 +95,76 @@
 <url>
   <loc>https://eduprov.com/btech-in-construction.html</loc>
   <lastmod>2021-12-13T11:17:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/master-of-engineering.html</loc>
+  <lastmod>2021-09-01T09:49:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/facility-management-course.html</loc>
+  <lastmod>2021-12-29T07:24:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/mba-banking-finance-course.html</loc>
+  <lastmod>2021-12-29T07:25:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/export-management-course.html</loc>
+  <lastmod>2021-12-24T10:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/finance-management.html</loc>
+  <lastmod>2021-12-24T10:45:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/healthcare-management-course.html</loc>
+  <lastmod>2021-12-24T10:46:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/human-resource-course.html</loc>
+  <lastmod>2021-12-24T10:46:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/logistics-management-course.html</loc>
+  <lastmod>2021-12-24T10:46:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/organizational-studies.html</loc>
+  <lastmod>2021-12-28T07:19:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/retail-management-course.html</loc>
+  <lastmod>2021-12-28T07:19:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/llb-course.html</loc>
+  <lastmod>2021-12-18T08:10:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/master-of-law-course.html</loc>
+  <lastmod>2021-12-18T08:10:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/application-form.php</loc>
+  <lastmod>2022-01-10T06:49:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduprov.com/bsms-course.html</loc>
+  <lastmod>2021-12-02T12:41:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -238,71 +303,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://eduprov.com/master-of-engineering.html</loc>
-  <lastmod>2021-09-01T09:49:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/facility-management-course.html</loc>
-  <lastmod>2021-12-29T07:24:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/mba-banking-finance-course.html</loc>
-  <lastmod>2021-12-29T07:25:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/export-management-course.html</loc>
-  <lastmod>2021-12-24T10:45:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/finance-management.html</loc>
-  <lastmod>2021-12-24T10:45:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/healthcare-management-course.html</loc>
-  <lastmod>2021-12-24T10:46:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/human-resource-course.html</loc>
-  <lastmod>2021-12-24T10:46:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/logistics-management-course.html</loc>
-  <lastmod>2021-12-24T10:46:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/organizational-studies.html</loc>
-  <lastmod>2021-12-28T07:19:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/retail-management-course.html</loc>
-  <lastmod>2021-12-28T07:19:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/llb-course.html</loc>
-  <lastmod>2021-12-18T08:10:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/master-of-law-course.html</loc>
-  <lastmod>2021-12-18T08:10:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://eduprov.com/bsms-course.html</loc>
-  <lastmod>2021-12-02T12:41:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://eduprov.com/bachelor-in-mass-communication.html</loc>
   <lastmod>2021-12-23T05:30:26+00:00</lastmod>
   <priority>0.80</priority>
@@ -389,77 +389,77 @@
 </url>
 <url>
   <loc>https://eduprov.com/diploma-in-dvl.html</loc>
-  <lastmod>2021-09-01T09:11:42+00:00</lastmod>
+  <lastmod>2022-01-07T12:35:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-anaesthesia-course.html</loc>
-  <lastmod>2021-09-01T09:11:43+00:00</lastmod>
+  <lastmod>2022-01-07T12:35:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-in-dental-mechanics-course.html</loc>
-  <lastmod>2021-09-01T09:11:22+00:00</lastmod>
+  <lastmod>2022-01-07T12:35:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/ddt-course.html</loc>
-  <lastmod>2021-09-01T09:11:46+00:00</lastmod>
+  <lastmod>2022-01-07T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-in-health-inspector-course.html</loc>
-  <lastmod>2021-09-01T09:11:48+00:00</lastmod>
+  <lastmod>2022-01-07T12:35:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-in-hearing-course.html</loc>
-  <lastmod>2021-09-01T09:11:47+00:00</lastmod>
+  <lastmod>2022-01-07T12:34:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-in-mrt-course.html</loc>
-  <lastmod>2021-09-01T09:11:47+00:00</lastmod>
+  <lastmod>2022-01-07T12:34:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-in-nursing-course.html</loc>
-  <lastmod>2021-09-01T09:11:48+00:00</lastmod>
+  <lastmod>2022-01-07T12:34:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/dott-course.html</loc>
-  <lastmod>2021-09-01T09:11:48+00:00</lastmod>
+  <lastmod>2022-01-07T12:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-in-ophthalmic-course.html</loc>
-  <lastmod>2021-09-01T09:11:47+00:00</lastmod>
+  <lastmod>2022-01-07T12:34:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-in-x-ray-course.html</loc>
-  <lastmod>2021-09-01T09:11:47+00:00</lastmod>
+  <lastmod>2022-01-10T06:47:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-ecg-technology-course.html</loc>
-  <lastmod>2021-09-01T09:11:42+00:00</lastmod>
+  <lastmod>2022-01-10T06:47:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/gnm-course.html</loc>
-  <lastmod>2021-09-01T09:11:56+00:00</lastmod>
+  <lastmod>2022-01-10T06:47:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/diploma-sanitary-inspector-course.html</loc>
-  <lastmod>2021-09-01T09:11:48+00:00</lastmod>
+  <lastmod>2022-01-10T06:47:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-nuro-course.html</loc>
-  <lastmod>2021-09-01T09:11:34+00:00</lastmod>
+  <lastmod>2022-01-10T06:47:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -604,62 +604,62 @@
 </url>
 <url>
   <loc>https://eduprov.com/bsc-zoology-course.html</loc>
-  <lastmod>2021-09-01T09:11:38+00:00</lastmod>
+  <lastmod>2021-12-30T06:14:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-agriculture-course.html</loc>
-  <lastmod>2021-09-01T09:11:32+00:00</lastmod>
+  <lastmod>2021-12-30T06:14:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-in-biology.html</loc>
-  <lastmod>2021-09-01T09:11:33+00:00</lastmod>
+  <lastmod>2021-12-30T06:14:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-in-botany.html</loc>
-  <lastmod>2021-09-01T09:11:36+00:00</lastmod>
+  <lastmod>2021-12-30T06:14:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-in-physics.html</loc>
-  <lastmod>2021-09-01T09:11:37+00:00</lastmod>
+  <lastmod>2021-12-30T06:14:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-in-pure-science.html</loc>
-  <lastmod>2021-09-01T09:11:37+00:00</lastmod>
+  <lastmod>2022-01-03T06:41:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-in-food-science.html</loc>
-  <lastmod>2021-09-01T09:11:33+00:00</lastmod>
+  <lastmod>2021-12-30T06:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc.html</loc>
-  <lastmod>2021-09-01T09:11:37+00:00</lastmod>
+  <lastmod>2022-01-03T06:42:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-in-microbiology.html</loc>
-  <lastmod>2021-09-01T09:11:38+00:00</lastmod>
+  <lastmod>2022-01-03T06:41:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-statistics.html</loc>
-  <lastmod>2021-09-01T09:11:36+00:00</lastmod>
+  <lastmod>2022-01-03T06:42:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/bsc-photography.html</loc>
-  <lastmod>2021-09-01T09:11:38+00:00</lastmod>
+  <lastmod>2022-01-03T06:42:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/master-of-science.html</loc>
-  <lastmod>2021-09-01T09:11:59+00:00</lastmod>
+  <lastmod>2022-01-03T06:43:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -704,12 +704,12 @@
 </url>
 <url>
   <loc>https://eduprov.com/contact-form.php</loc>
-  <lastmod>2021-12-29T07:27:13+00:00</lastmod>
+  <lastmod>2022-01-10T06:49:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://eduprov.com/sitemap.html</loc>
-  <lastmod>2021-12-24T11:37:36+00:00</lastmod>
+  <lastmod>2021-12-29T07:28:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
