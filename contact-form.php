@@ -1,86 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
+ <head>
+     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="canonical" href="https://eduprov.com/contact.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <script type="application/ld+json">
-    
-    </script>
-    <meta name="description" content="">
-    <meta name="keywords" content=" 
-    
-    ">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Contact Form" />
-    <meta property="og:url" content="https://eduprov.com/contact.html" />
-    <meta property="og:site_name" content="Eduprov Educational Institute" />
-    <meta property="og:description"
-      content="" />
-    <meta property="og:image" content="#" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@eduprov" />
-    <meta name="twitter:title" content="Contact Form" />
-    <meta name="twitter:description"
-      content="" />
-    <meta name="twitter:image" content="#" />
-    <meta name="twitter:url" content="https://twitter.com/eduprov" />
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.png"  />
+
+      <!-- Primary Meta Tags -->
+      <title>Contact Form</title>
+      <meta name="description" content="Best Admission Guidance in Bangalore Eduprov is an esteemed name in Career Counseling, Study Abroad & Admission Guidance institute located in the heart of Bengaluru.">
+      <meta name="keywords" content="career counselling in bangalore,best career counselling in bangalore,career guidance in bangalore,career consultant bangalore,admission consultants in bangalore,admission in bangalore,mba admission in bangalore,top bams colleges in bangalore,admission consultancy in bangalore,technical education,higher education,career,career options,career prospects,engineering, mba, medical, mbbs,study abroad, foreign education, college, university">
+
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://eduprov.com/contact-form.php">
+      <meta property="og:title" content="Admission Guidance Career Counselling Study Abroad in Bangalore">
+      <meta property="og:description" content="Best Admission Guidance in Bangalore Eduprov is an esteemed name in Career Counseling, Study Abroad & Admission Guidance institute located in the heart of Bengaluru.">
+      <meta property="og:image" content="#">
+
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:url" content="https://eduprov.com/contact-form.php">
+      <meta property="twitter:title" content="Admission Guidance Career Counselling Study Abroad in Bangalore">
+      <meta property="twitter:description" content="Best Admission Guidance in Bangalore Eduprov is an esteemed name in Career Counseling, Study Abroad & Admission Guidance institute located in the heart of Bengaluru.">
+      <meta property="twitter:image" content="#">
+
+     <!-- canonical tag -->
+    <link rel="canonical" href="https://eduprov.com/contact-form.php" />
+
+     <!-- css stylesheet -->
+    <link rel="stylesheet" href="accordian.css" />
+
+      <!-- Fav icon and author  -->
+     <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
     <link rel="apple-touch-icon" href="/images/favicon.png"  >
     <meta name="author" content="thephotogenicbug">
-    <link rel="stylesheet" href="blog.css" />
-    <link rel="stylesheet" href="accordian.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="navbar.css" />
+        <!-- MDB Font-awesome-->
+    <link    rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
-      <!-- Prevent form from Submitting Twice -->
-      <script>
-        if ( window.history.replaceState ) {
-          window.history.replaceState( null, null, window.location.href );
-        }
-        </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"> -->
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <!-- Latest compiled JavaScript -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js" crossorigin="anonymous"></script>
+     <!-- schema org  -->
+     <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "CollegeOrUniversity",
+    "name": "EDUPROV",
+    "alternateName": "Eduprov Education Institute",
+    "url": "https://eduprov.com/contact-form.php",
+    "logo": "https://eduprov.com/images/logo.png",
+    "sameAs": [
+        "https://www.facebook.com/eduprovinstitute/",
+        "https://twitter.com/eduprov",
+        "https://www.instagram.com/eduprov_education/",
+        "https://www.linkedin.com/in/eduprov-educational-institute-ab2b24115/",
+        "https://in.pinterest.com/eduprov/",
+        "https://eduprov.com/",
+        "https://www.youtube.com/channel/UCpQxHyt7KwUzpUhM6E_dyNw/featured"
+    ]
+    }
+    
+</script>
+ <script>
+      if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+      }
+      </script>
+
 </head>
 <body>
-    
-  <nav>
-    <div class="hamburger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-    <ul class="nav-links">
-      <li><a href="https://eduprov.com/">Home</a></li>
-      <li><a href="https://eduprov.com/admission-guidance.html">Admission Guidance</a></li>
-      <li><a href="https://eduprov.com/career-counseling.html">Career Counseling</a></li>
-      <li><a href="https://eduprov.com/application-form.php">Application Form</a></li>
-      <li><a href="https://eduprov.com/contact-form.php">Contact Us</a></li>
-    </ul>
-  </nav>
-  <div id="logo">
-    <a href="https://eduprov.com/"><img src="images/logo-white.png" alt="Edu-logo" title="eduprov logo" /></a>
-  </div>
-    
-      <div class="banner">
-    
-        <div class="container text-white">
-          <div class="row">
-            <div class="col-md-8 mt-5 pt-5">
-              <h1 class="text-white">Contact Form</h1>
+        <!-- Mega menu start -->
+    <header class="header">
+      <div class="header-container">
+        <div class="header-row v-center">
+          <div class="header-item item-left">
+            <div class="logo">
+              <a href="https://eduprov.com/">
+                <img src="images/favicon.png" class="edu-logo" alt="eduprov-navbar-logo" title="eduprov" />
+              </a>
+            </div>
+          </div>
+          <!-- menu start here -->
+          <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+              <div class="mobile-menu-head">
+                <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="menu-main">
+                <li>
+                  <a href="https://eduprov.com/">Home</a>
+                </li>
+                 <li>
+                  <a href="https://eduprov.com/admission-guidance.html">Admission Guidance</a>
+                </li>
+                 <li>
+                  <a href="https://eduprov.com/career-counseling.html">Career Counselling</a>
+                </li>
+                 <li>
+                  <a href="https://eduprov.com/application-form.php">Application Form</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">Medical <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/bams.html">BAMS</a></li>
+                      <li><a href="https://eduprov.com/bds-course.html">BDS</a></li>
+                      <li><a href="https://eduprov.com/bhms-course.html">BHMS</a></li>
+                      <li><a href="https://eduprov.com/mbbs-course.html">MBBS</a></li>
+                      <li><a href="https://eduprov.com/bums-course.html">BUMS</a></li>
+                      <li><a href="https://eduprov.com/bpt-course.html">BPT</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/doctor-of-medicine-course.html">M.D</a></li>
+                      <li><a href="https://eduprov.com/d-pharama-course.html">Pharm.D</a></li>
+                      <li><a href="https://eduprov.com/mds-course.html">MDS</a></li>
+                      <li><a href="https://eduprov.com/md-unani-course.html">MD Unani</a></li>
+                      <li><a href="https://eduprov.com/md-anaesthesia-course.html">MD Anesthesia</a></li>
+                    </ul>
+                  </div>
+                </li>
+                 <!-- <li class="menu-item-has-children">
+                  <a href="#">Engineering <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                      <h4 class="title">Diploma</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/diploma-in-engineering.html">Diploma in Engineering</a></li>
+                    </ul>
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/btech-in-aerospace.html">B.Tech Aerospace Engineering</a></li>
+                      <li><a href="https://eduprov.com/btech-in-automobile.html">B.Tech Automobile Engineering</a></li>
+                      <li><a href="https://eduprov.com/btech-in-construction.html">B.Tech in Construction Engineering</a></li>
+                      <li><a href="https://eduprov.com/btech-in-dairy-technology.html">B.Tech Dairy Technology</a></li>
+                      <li><a href="https://eduprov.com/btech-in-eee.html">B.Tech in Electronics and Electrical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-ece.html">B.Tech Electronics and Communication </a></li>
+                      <li><a href="https://eduprov.com/btech-in-ete.html">B.Tech Electronics and Telecommunication</a></li>
+                      <li><a href="https://eduprov.com/btech-it-course.html">B.Tech Information Technology</a></li>
+                      <li><a href="https://eduprov.com/btech-infrastructure.html">B.Tech Infrastructure</a></li>
+                      <li><a href="https://eduprov.com/btech-in-instrumentation.html">B.Tech Instrumentation</a></li>
+                      <li><a href="https://eduprov.com/btech-in-marine.html">B.Tech Marine</a></li>
+                      <li><a href="https://eduprov.com/btech-in-mining.html">B.Tech Mining</a></li>
+                      <li><a href="https://eduprov.com/btech-motorsport.html">B.Tech Motorsport</a></li>
+                      <li><a href="https://eduprov.com/btech-in-petroleum.html">B.Tech Petroleum</a></li>
+                      <li><a href="https://eduprov.com/btech-in-production.html">B.Tech Production</a></li>
+                      <li><a href="https://eduprov.com/btech-safety-fire.html">B.Tech Fire & Safety</a></li>
+                      <li><a href="https://eduprov.com/btech-sound-engineering.html">B.Tech Sound</a></li>
+                      <li><a href="https://eduprov.com/btech-textile.html">B.Tech Textile</a></li>
+                      <li><a href="https://eduprov.com/btech-aeronautical-engineering-admission.html">B.Tech Aeronautical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-chemical.html">B.Tech Chemical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-genetic.html">B.Tech Genetic</a></li>
+                      <li><a href="https://eduprov.com/btech-mechanical-engineering-admission.html">B.Tech Mechanical</a></li>
+                      <li><a href="https://eduprov.com/btech-metallurgical.html">B.Tech Metallurgical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-naval.html">B.Tech Naval</a></li>
+                      <li><a href="https://eduprov.com/btech-in-power.html">B.Tech Power</a></li>
+                      <li><a href="https://eduprov.com/btech-in-plastic.html">B.Tech Plastic</a></li>
+                      <li><a href="https://eduprov.com/btech-in-biotechnolgy.html">B.Tech Biotechnology</a></li>
+                      <li><a href="https://eduprov.com/btech-in-biomedical.html">B.Tech Biomedical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-biochemical.html">B.Tech Biochemical</a></li>
+                      <li><a href="https://eduprov.com/btech-in-civil.html">B.Tech Civil</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-engineering.html">Master of Engineering</a></li>
+                    </ul>
+                  </div>
+                </li>
+              
+                <li class="menu-item-has-children">
+                  <a href="#">MBA <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/facility-management-course.html">MBA Facility Management</a></li>
+                      <li><a href="https://eduprov.com/mba-banking-finance-course.html">MBA Banking and Finance</a></li>
+                      <li><a href="https://eduprov.com/export-management-course.html">MBA Export management</a></li>
+                      <li><a href="https://eduprov.com/finance-management.html">MBA Finance Management</a></li>
+                      <li><a href="https://eduprov.com/healthcare-management-course.html">MBA Healthcare Management</a></li>
+                      <li><a href="https://eduprov.com/human-resource-course.html">MBA Human Resource Management</a></li>
+                      <li><a href="https://eduprov.com/logistics-management-course.html">MBA Logistics Management</a></li>
+                      <li><a href="https://eduprov.com/organizational-studies.html">MBA Organizational Behavior</a></li>
+                      <li><a href="https://eduprov.com/retail-management-course.html">MBA Retail Management</a></li>
+                    </ul>
+                  </div>
+                </li> -->
+                <!-- <li class="menu-item-has-children">
+                  <a href="#">Law <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/llb-course.html">Bachelor of Legislative Law</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-law-course.html">Master of Law</a></li>
+                    </ul>
+                  </div>
+                </li> -->
+                
+                <li class="menu-item-has-children">
+                  <a href="#">Science <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <h4 class="title">Undergraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/bsc-bioinformation-course.html">B.Sc Bioinformatics</a></li>
+                      <li><a href="https://eduprov.com/bsc-biotechnology-course.html">B.Sc Biotechnology</a></li>
+                      <li><a href="https://eduprov.com/bsc-chemistry-course.html">B.Sc Chemistry</a></li>
+                      <li><a href="https://eduprov.com/bsc-dairy-technology-course.html">B.Sc Dairy Technology</a></li>
+                      <li><a href="https://eduprov.com/bsc-food-processing-and-technology-course.html.html">B.Sc Food Processing & Technology</a></li>
+                    </ul>
+                    <h4 class="title">Postgraduate</h4>
+                    <ul>
+                      <li><a href="https://eduprov.com/master-of-science.html">Master of Science</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- menu end here -->
+          <div class="header-item item-right">
+           <!-- <i class="fas fa-sign-in-alt"></i>
+           <i class="fas fa-user-plus"></i> -->
+            <!-- mobile menu trigger -->
+            <div class="mobile-menu-trigger">
+              <span></span>
             </div>
           </div>
         </div>
       </div>
-
-      <?php
+    </header>
+      <!-- Mega menu end -->
+         <?php
       include('enquiry.php');
 
       if(!empty($_POST["send"])) {
@@ -123,10 +296,109 @@
       </div>
     <?php }?>
 
-            <form action="" name="contactForm" method="post" enctype="multipart/form-data">
+      <!-- user interface start -->
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <h1 class="fs-2">CONTACT US</h1>
+              </div>
+          </div>
+          <div class="row mt-4">
+                   <div class="col-md-4">
+                  <div class="card h-100 shadow-5">
+                      <div class="card-body">
+                          <h5 class="text-center fw-bold">HEAD OFFICE</h5>
+                          <div style="display: flex; justify-content: space-between;">
+                              <img src="images/location.png" height="29px" />
+                              <label style="margin-left: 10px;">No 20 3rd Floor Lady Curzon Rd Santha Complex, Lady Curzon Rd, Infantry Rd, Bengaluru Karnataka 560001</label>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card h-100 shadow-5">
+                       <div class="card-body">
+                          <h5 class="text-center fw-bold">EMAIL US</h5>
+                          <div style="display: flex; justify-content: space-around; align-items: center;">
+                              <img src="images/contact_form_email_icons.png" height="29px" />
+                              <p style="margin-left: -120px; margin-top: 10px;">admin@eduprov.com</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                    <div class="card h-100 shadow-5">
+                       <div class="card-body">
+                          <h5 class="text-center fw-bold">CONTACT US</h5>
+                          <div style="display: flex; justify-content: space-around; align-items: center;">
+                              <img src="images/call.png" height="29px" />
+                              <p style="margin-left: -140px; margin-top: 10px;">+91 80 25591146</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+           <div class="row mt-4">
+                   <div class="col-md-4">
+                  <div class="card h-100 shadow-5">
+                      <div class="card-body">
+                          <h5 class="text-center fw-bold">BRANCH OFFICE 1</h5>
+                          <div style="display: flex; justify-content: space-around;">
+                              <div>
+                               <img src="images/location.png" height="29px" />
+                              <label>N.E Blaine Minnesota USA 55434</label><br />
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                   <div class="card h-100 shadow-5">
+                      <div class="card-body">
+                          <h5 class="text-center fw-bold">BRANCH OFFICE 2 </h5>
+                          <div style="display: flex; justify-content: space-between;">
+                              <img src="images/location.png" height="29px" />
+                              <label style="margin-left: 10px;">Old Whittlesey Road Suite Columbus Georgia 31904, USA</label>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                 <div class="col-md-4">
+                   <div class="card h-100 shadow-5">
+                      <div class="card-body">
+                          <h5 class="text-center fw-bold">BRANCH OFFICE 3 </h5>
+                          <div style="display: flex; justify-content: space-between;">
+                              <img src="images/location.png" height="29px" />
+                              <label style="margin-left: 10px;">4939 Kevin Walker Dr, Montclair, Virginia 22025, USA</label>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+           <div class="row mt-3">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-5">
+                       <div class="card-body">
+                          <h5 class="text-center fw-bold">CONTACT US</h5>
+                          <div style="display: flex; justify-content: space-around; align-items: center;">
+                              <img src="images/call.png" height="29px" />
+                              <p style="margin-left: -140px; margin-top: 10px;">(+1) 651 967 7789</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+           </div>
+      </div>
+       <div class="container">
+         <div class="row">
+           <div class="col-md-12">
+                   <form action="" name="contactForm" method="post" enctype="multipart/form-data">
               <div class="container mt-5">
                 <div class="row">
-                  <div class="col-md-12"></div>
+                  <div class="col-md-12">
+                  <h1 class="fs-3">FORM</h1>
+                  <hr style="color: #F1C21B;" />
+                  </div>
 
                   <div class='col-md-4'>
                    <div class="form-group mb-3">
@@ -172,243 +444,15 @@
                 <div class="col-md-12 text-center">
                   <input class="btn btn-block btn-light" type="submit" name="send" value="Send Message" />
                 </div>
-            </div>
-            <hr/>
-                <div class="row mt-4">
-                     <div class="col-md-12 text-center">
-                       <img src="images/india.png" height="50">
-                       <h6 class="mt-3">Head Office (INDIA)</h6>
-                     </div>
+                </div>
                  </div>
-                  <div class="row text-center">
-                   <div class="col-md-6">
-                     <img src="images/placeholder.png" class="location-icon"  height="35">
-                     <h6 class="mt-3">
-                       No 20 3rd Floor Lady Curzon Rd Santha Complex, Lady Curzon Rd, Infantry Rd, Bengaluru Karnataka 560001
-                     </h6>
-                   </div>
-                   <div class="col-md-6">
-                     <img src="images/customer-service.png" class="location-icon" height="35">
-                     <h6 class="mt-3">+91 80 25591146</h6>
-                   </div>
-                  </div>
-   
-                   <div class="row mt-5 pt-3">
-                     <div class="col-md-12 text-center">
-                       <img src="images/united-states.png"  class="usa-icon" height="50">
-                       <h6 class="mt-3">Branch Office (USA)</h6>
-                     </div>
-                      
-                     <div class='row text-center mt-5'>
-                       <div class="col-md-4">
-                         <img src="images/placeholder.png" class="minnesota-icon" height="35">
-                         <h6  class="mt-3" >
-                           N.E Blaine Minnesota USA 55434
-                         </h6>
-                       </div>
-                       <div class="col-md-4">
-                         <img src="images/placeholder.png" class="minnesota-icon" height="35">
-                         <h6  class="mt-3" >
-                           Old Whittlesey Road Suite Columbus Georgia 31904, USA
-                         </h6>
-                       </div>
-                       <div class="col-md-4 ">
-                        <img src="images/placeholder.png" class="minnesota-icon" height="35">
-                        <h6  class="mt-3" >
-                          4939 Kevin Walker Dr, Montclair, Virginia 22025, USA
-                        </h6>
-                      </div>
-                     </div>
-                     <div class='row text-center mt-5'>
-                       <div class="col-md-12">
-                         <img src="images/customer-service.png" class="minnesota-icon" height="35">
-                         <h6  class="mt-3" >
-                           (+1) 651 967 7789
-                         </h6>
-                       </div>
-                     </div>
-   
-                      <div class="row mt-4">
-                        <div class="col-md-12 text-center">
-                          <img src="images/email.png" height="45" >
-                          <h6 class="mt-3">admin@eduprov.com</h6>
-                          <h6 class="mt-3">hr@eduprov.com</h6>
-                        </div>
-                      </div>
-                   </div>
-   
-                    
-                 </div>
-   
-                 
-                 </div>
-            </form>
-                <!-- <div class="col-md-12 text-center">
-                   <div class="row">
-                    <div class="col-md-4 text-center">
-                      <img src="images/india.png" height="50">
-                       <h6 class="mt-3">Head Office (INDIA)</h6>
-                    </div>
-                    <div class="col-md-4 text-center">
-                      <img src="images/india-pin.png" class="location-icon" height="50">
-                      <h6 class="mt-3">
-                        No 20 2nd Floor Lady Curzon Rd Santha Complex Shivaji Nagar Bengaluru Karnataka 560001
-                      </h6>
-                     
-                    </div>
-                    <div class="col-md-4">
-                      <img src="images/call.svg" class="call-icon" height="60">
-                      <h6>+91 80 25591146</h6>
-                    </div>
-                   </div>
-                   <div class="row mt-5">
-                    <div class="col-md-4 text-center">
-                      <img src="images/email.svg" class="email-icon" height="40">
-                       <h6 class="mt-3"> admin@eduprov.com</h6>
-                       <h6 class="mt-3"> hr@eduprov.com</h6>
-                    </div>
-                    <div class="col-md-4 text-center">
-                      <img src="images/email.svg" class="email-icon-2" height="40">
-                       <h6 class="mt-3"> hr@eduprov.com</h6>
-                        <h6 class="mt-3"> hr@eduprov.com</h6>
-                    </div>
-                    <hr/>
-                    <div class="row mt-5 ">
-                      <div class="col-md-4 text-center">
-                        <img src="images/united-states.png"  class="usa-icon" height="50">
-                         <h6 class="mt-3">Branch Office (USA)</h6>
-                      </div>
-                      <div class="col-md-4 text-center">
-                        <img src="images/united-states-of-america.png" class="minnesota-icon" height="60">
-                        <h6  class="mt-3" >
-                          N.E Blaine Minnesota USA 55434
-                        </h6>
-                      </div>
-
-                      <div class="col-md-4 text-center">
-                        <img src="images/united-states-of-america.png" class="georgia-icon" height="60">
-                        <h6  class="mt-3" >
-                          Old Whittlesey Road Suite Columbus Georgia 31909
-                        </h6>
-                      </div>
-                     
-                     </div>
-                     <div class="row mt-5 ">
-                      <div class="col-md-4 text-center">
-                        <img src="images/united-states-of-america.png" class="minnesota-icon" height="60">
-                        <h6  class="mt-3" >
-                          N.E Blaine Minnesota USA 55434
-                        </h6>
-                      </div>
-
-                      <div class="col-md-4 text-center">
-                        <img src="images/call.svg" class="georgia-icon" height="60">
-                        <h6  class="mt-3" >
-                          (+1) 651 967 7789
-                        </h6>
-                      </div>
-                     
-                     </div>
-                      </div>
-                      </div>
-                   </div>
-                </div>
-          </div> -->
-         
-
-           
-     <!-- <form action="" name="contactForm" method="post" enctype="multipart/form-data">
-      <div class="container mt-1">
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 mt-4">
-                <div class="row">
-                    <div class="col-md-6 ">
-                        <div class="form-group mb-3">
-                            <label class="label-title">Name</label><i class="text-danger">*</i><br/>
-                           <input type="text" class="form-control text-input"  name="name" placeholder="Name *" id="name" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                         <div class="form-group mb-3">
-                            <label class="label-title">Mobile </label><i class="text-danger">*</i><br/>
-                            <input type="text" class="form-control text-input" name="mobile" placeholder="Mobile *" id="mobile" />
-                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 ">
-                        <div class="form-group mb-3">
-                            <label class="label-title">Email ID</label><i class="text-danger">*</i><br/>
-                           <input type="text" class="form-control  text-input" name="email" placeholder="Email ID *" id="email" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                         <div class="form-group mb-3 dropdown">
-                            <label class="label-title">Enquiry for </label><i class="text-danger">*</i><br/>
-                            <select  class="form-control  text-input" name="enquiry" id="enquiry">
-                                <option>Choose...</option>
-                                <option>Career Counseling</option>
-                                <option>Admission Guidance</option>
-                                <option>Overseas Education</option>
-                                <option>Admin</option>
-                                <option>Job</option>
-                            </select>
-                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                         <div class="form-group mb-3">
-                             <label  class="label-title">Message</label><i class="text-danger">*</i><br/>
-                            <textarea class="form-control"  rows="5" name="message" id="message" placeholder="Message *"></textarea>
-                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                      <input class="btn btn-block btn-light" type="submit" name="send" value="Send Message" />
-                    </div>
-                </div>
-                
-            </div>
-            <div class="col-md-3"></div>
-        </div> -->
-        <!-- <div class="row mt-5">
-          <div class="col-md-6">
-            <h6>Head Office (India)</h5>
-            <p class="text-justify"><i class="fas fa-map-pin"></i>
-              No 20 2nd Floor Lady Curzon Rd Santha Complex Shivaji Nagar Bengaluru Karnataka 560001
-            </p>
-            <p class="text-justify"><i class="fa fa-envelope"></i>
-             admin@eduprov.com
-            </p>
-            <p class="text-justify"><i class="fa fa-envelope"></i>
-              hr@eduprov.com
-             </p>
-            <p class="text-justify"><i class="fas fa-phone"></i>
-              +91 80 25591146
-            </p>
   
-          </div>
-          <div class="col-md-6">
-            <h6>USA LOCATION</h5>
-              <p class="text-justify"><i class="fas fa-map-pin"></i>
-                N.E Blaine Minnesota USA 55434
-              </p>
-              <p class="text-justify"><i class="fas fa-map-pin"></i>
-                Old Whittlesey Road Suite Columbus Georgia 31909
-              </p>
-              <p class="text-justify"><i class="fas fa-phone"></i>
-                (+1) 651 967 7789
-              </p>
-          </div>
-        </div> -->
-    
-
-     
-
-       <!-- JavaScript -->
+              </div>
+            </form>
+           </div>
+         </div>
+       </div>
+           <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
   
@@ -463,8 +507,7 @@
       });
     });    
   </script>
-       
-       <footer class="page-footer font-small bg-dark pt-4 mt-4">
+    <footer class="page-footer font-small bg-dark pt-4 mt-4">
 
         <!-- Footer Links -->
         <div class="container text-left text-md-left">
@@ -653,8 +696,6 @@
       
       </footer>
       <!-- Footer -->
-
+      <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
 </html>
-
