@@ -436,6 +436,50 @@
     </header>
       <!-- Mega menu end -->
      
+      <?php
+
+ if(isset($_POST['send'])){
+        $name                 = $_POST["name"];
+        $email                = $_POST["email"];
+        $mobileno             = $_POST["mobileno"];
+        $dob                 = $_POST["dob"];
+        $gender               = $_POST["gender"];
+        $exactivities         = $_POST["exactivities"];
+        $precourse            = $_POST["precourse"];
+        $precoursetwo         = $_POST["precoursetwo"];
+        $precoursethree       = $_POST["precoursethree"];
+        $precoursefour        = $_POST["precoursefour"];
+        $fathername           = $_POST["fathername"];
+        $mothername           = $_POST["mothername"];
+        $parentsno            = $_POST["parentsno"];
+        $motherocp            = $_POST["motherocp"];
+        $fatherocp            = $_POST["fatherocp"];
+        $caste                = $_POST["caste"];
+        $country              = $_POST["country"];
+        $state                = $_POST["state"];
+        $city                 = $_POST["city"];
+        $nationality          = $_POST["nationality"];
+        $precollege           = $_POST["precollege"];
+        $precollegetwo        = $_POST["precollegetwo"];
+        $precollegethree      = $_POST["precollegethree"];
+        $precollegefour       = $_POST["precollegefour"];
+        $qualification        = $_POST["qualification"];
+        $achievements         = $_POST["achievements"];
+        $address              = $_POST["address"];
+
+   $to = "info@eduprov.com";
+   $subject ="Online Application Form Data";
+   $message = "Name : ".$name."\n"."MobileNo : ".$mobileno."\n"."Date of Birth : ".$dob."\n"."Gender : ".$gender."\n"."Extra Activities : ".$exactivities."\n"."Preferred Course One : ".$precourse."\n"."Preferred Course Two : ".$precoursetwo."\n"."Preferred Course Three : ".$precoursethree."\n"."Preferred Course Four : ".$precoursefour."\n"."Father Name : ".$fathername."\n"."Mother Name : ".$mothername."\n"."Parents Mobile No : ".$parentsno."\n"."Mother Occupation : ".$motherocp."\n"."Father Occupation : ".$fatherocp."\n"."Caste : ".$caste."\n"."Country : ".$country."\n"."State : ".$state."\n"."City :".$city."\n"."Nationality : ".$nationality."\n"."Preferred College One : ".$precollege."\n"."Preferred College Two : ".$precollegetwo."\n"."Preferred College Three : ".$precollegethree."\n"."Preferred College Four : ".$precollegefour."\n"."Qualification : ".$qualification."\n"."Achievements : ".$achievements."\n"."Address : ".$address ;
+   $headers = "From ".$email;
+   if(mail($to, $subject, $message, $headers)){
+			echo "";
+		}
+		else{
+			echo "Something went wrong!";
+		}
+ }
+    
+?>
 
   <?php
       include('config/database.php');
